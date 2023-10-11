@@ -1,5 +1,18 @@
+/* Global style */
+
 body {
-background: beige;
+background: rgb(255, 255, 248);
+font-family: "Mulish", sans-serif;
+color: darkslategrey;
+text-align: center;
+
+}
+
+/* Header */
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
 }
 
 /* Buttons */
