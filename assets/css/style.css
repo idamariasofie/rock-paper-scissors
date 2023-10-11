@@ -1,0 +1,16 @@
+body {
+background: beige;
+}
+
+.btn--instructions,
+.btn--reset {
+    background: white;
+    color: black;
+    width: 220px;
+    height: 60px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+
+}
