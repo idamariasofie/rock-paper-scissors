@@ -2,15 +2,42 @@ body {
 background: beige;
 }
 
-.btn--instructions,
-.btn--reset {
-    background: white;
-    color: black;
+/* Buttons */
+
+.btn {
     width: 220px;
     height: 60px;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
+    background: white;
+    color: black;
     letter-spacing: 1.5px;
-    border-radius: 5px;
-
+    
 }
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--instructions,
+.btn--reset {
+    padding-top: 10px;
+    border: 5px solid;
+    font-size: 2.5rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.btn--instructions:active,
+.btn--instructions:hover {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.btn--reset:active,
+.btn--reset:hover {
+    background-color: darkslategrey;
+    color: white;
+}
+
