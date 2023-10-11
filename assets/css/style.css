@@ -1,7 +1,7 @@
 /* Global style */
 
 body {
-background: rgb(255, 255, 248);
+background-color: rgb(255, 255, 248);
 font-family: "Mulish", sans-serif;
 color: darkslategrey;
 text-align: center;
@@ -17,6 +17,17 @@ text-align: center;
 
 /* Game area layout */
 
+.game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
 
 
 
