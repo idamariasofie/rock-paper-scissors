@@ -1,6 +1,5 @@
 // Wait for the DOM to finish loading before running the game
 
-
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
@@ -14,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 alert(`You clicked ${gameType}`);
                 runGame(gameType);
             }
+
         });
     }
 
@@ -23,13 +23,39 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
+/**
+ * The main game loop, called when the script is first loaded
+ * and after the user's answer has been processed 
+ */
 function runGame(gameType) {
 
+
+    if (gameType === "rock") {
+       
+    }
+}
+
+function incrementScore() {
+
+}
+
+function calculateWinner() {
+
 }
 
 
-function selectButton() {
+function displayRockOption() {
+    
+}
+
+function displayPaperOption() {
 
 }
 
+function displayScissorsOption() {
+
+}
+
+function displayWinner() {
+
+}
