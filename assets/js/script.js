@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
 // Get the button elements and add event listeners to them
     for (let button of buttons) {
         button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "submit") {
+            if (this.getAttribute("id") === "submit") {
                 alert("You clicked Submit!");
             } else {
-                let gameType = this.getAttribute("data-type");
+                let gameType = this.getAttribute("id");
                 alert(`You clicked ${gameType}`);
                 runGame(gameType);
             }
@@ -39,6 +39,10 @@ function incrementScore() {
 
 }
 
+/**
+ * Gets the selected option (rock, paper, scissors) and the computers choice 
+ * directly from the DOM and returns the winner. 
+ */
 function calculateWinner() {
 
 }
