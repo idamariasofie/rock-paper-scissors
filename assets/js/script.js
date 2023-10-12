@@ -2,16 +2,17 @@
 document.addEventListener("DOMContentLoaded", function() {
 let buttons = document.getElementsByTagName("button");
 
+// Get the button elements and add event listeners to them
 for (let button of buttons){
     button.addEventListener("click", function() {
-
+let gameType = this.getAttribute("data-type");
+alert(`You clicked $(gameType)`);
     })
 
 }
 
 })
 
-// Get the button elements and add event listeners to them
 
 
 function runGame() {
