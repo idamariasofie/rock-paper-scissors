@@ -12,14 +12,19 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 let gameType = this.getAttribute("data-type");
                 alert(`You clicked ${gameType}`);
+                runGame(gameType);
             }
         });
     }
+
+    runGame("rock");
+    runGame("paper");
+    runGame("scissors");
 });
 
 
 
-function runGame() {
+function runGame(gameType) {
 
 }
 
