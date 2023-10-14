@@ -33,6 +33,22 @@ body {
 
 /* Buttons */
 
+.btn-rock,
+.btn-paper,
+.btn-scissors {
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.btn-rock:active
+.btn-rock:hover {
+    
+
+}
+
 
 
 /* Media queries */
