@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
+<body>
 <!-- Header -->
 <header class="heading">
 <h1>Rock Paper Scissors</h1>
@@ -22,7 +24,7 @@
 <!-- Instruction text content -->
 <aside class="instructions">
     <div class="instructions-text">
-        <h1>Let's play Rock Paper Scissors</h1>
+        <h2>Let's play Rock Paper Scissors</h2>
         <p>In this game you are going to chose between rock, paper and scissors and play against our computer. 
      <button class="close-button">Play now</button>
     </div>
@@ -33,15 +35,15 @@
 <button class="btn--instructions">Instructions</button>
 <button class="btn--reset">Reset</button>
 
-<!-- Game area -->
-<div class="game-area">
+<!-- Game board-->
+<div class="game-board">
 
 
 </div>
 
 <!-- Score board -->
 <div class="score-board">
-<h2>You <span id="score">0</span> - <span id="computer-score">0</span> Computer</h2>
+<h2>You <span id="user-score">0</span> - <span id="computer-score">0</span> Computer</h2>
 </div>
 
 <!-- User instructions -->
@@ -50,25 +52,26 @@
 </div>
 
 <!-- Game buttons to play -->
+<div class="play-area"></div>
 <div class="game-buttons">
-<button class="btn--rock" id="rock" >
-    <i class="fa-regular fa-hand-back-fist"></i>
-</button>
-<button class="btn--paper" id="paper">
-    <i class="fa-regular fa-hand"></i>
+    <button class="btn btn--big btn--rock" id="rock">
+        <i class="fa-regular fa-hand-back-fist"></i>
     </button>
-<button class="btn--scissors" id="scissors">
-    <i class="fa-light fa-hand-scissors"></i>
-</button>
+    <button class="btn btn--big btn--paper" id="paper">
+        <i class="fa-regular fa-hand"></i>
+    </button>
+    <button class="btn btn--big btn--scissors" id="scissors">
+        <i class="fa-regular fa-hand-scissors"></i>
+    </button>
 </div>
 
-
-<body>
 
     <!-- Footer -->
 <footer>
     <p>Developed by <a href="https://github.com/idamariasofie" target="_blank">Sofie Andersson</a> For Code Institute's portfolio project 2</p>
 </footer>
+<!-- Font awesome kit -->
+<script src="https://kit.fontawesome.com/719598697c.js" crossorigin="anonymous"></script>
     <!-- JavaScript file -->
     <script src="assets/js/script.js"></script>
 </body>
