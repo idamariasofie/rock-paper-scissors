@@ -28,11 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
  * and after the user's answer has been processed 
  */
 function runGame(gameType) {
-
-
-    if (gameType === "rock") {
-       
-    }
 }
 
 function incrementScore() {
