@@ -6,7 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for (let button of buttons) {
         button.addEventListener("click", function() {
-if (this.getAttribute("id"))
+if (this.getAttribute("id") === "play-now") {
+    alert("You clicked Play now!");
+} if(this.getAttribute("id") === "instructions") {
+    alert("You clicked Instructions!");
+} if(this.getAttribute ("id") === "reset");
+alert("You clicked Reset!");
+              else {
+let gameType = this.getAttribute("id");
+alert(`You clicked ${gameType}`);
+             }
         })
     }
 })
