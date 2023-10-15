@@ -5,27 +5,32 @@ document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
     for (let button of buttons) {
-        button.addEventListener("click", function() {
-if (this.getAttribute("id") === "play-now") {
-    alert("You clicked Play now!");
-} if(this.getAttribute("id") === "instructions") {
-    alert("You clicked Instructions!");
-} if(this.getAttribute ("id") === "reset");
-alert("You clicked Reset!");
-              else {
-let gameType = this.getAttribute("id");
-selectUserPlay(gameType);
-             }
-        })
+        button.addEventListener("click", function () {
+            if (this.getAttribute("id") === "rock") {
+                displayRockSelection();
+                if (this.getAttribute("id") === "paper") {
+                    displayPaperSelection();
+                    if (this.getAttribute("id") === "scissors") {
+                        displayScissorsSelection();
+                    }
+                }
+            } else {
+                let gameType = this.getAttribute("data-type");
+                runGame(gameType);
+            }
+        });
     }
 
     selectUserPlay("rock");
     selectUserPlay("paper");
     selectUserPlay("scissors");
 
-})
+});
     
-
+/**
+ * Take user's game selection and show value on screen
+ * and call the computer choice function 
+ */
 function selectUserPlay(gameType) {
 if (gameType === "rock") {
     displayRockSelection(rock);
