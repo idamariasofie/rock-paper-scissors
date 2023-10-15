@@ -4,41 +4,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
-    for (let button of buttons) {
-        button.addEventListener("click", function () {
-            if (this.getAttribute("id") === "rock") {
-                displayRockSelection();
-                if (this.getAttribute("id") === "paper") {
-                    displayPaperSelection();
-                    if (this.getAttribute("id") === "scissors") {
-                        displayScissorsSelection();
-                    }
-                }
-            } else {
-                let gameType = this.getAttribute("data-type");
-                runGame(gameType);
-            }
-        });
-    }
-
-    selectUserPlay("rock");
-    selectUserPlay("paper");
-    selectUserPlay("scissors");
-
 });
     
 /**
  * Take user's game selection and show value on screen
  * and call the computer choice function 
  */
-function selectUserPlay(gameType) {
-if (gameType === "rock") {
-    displayRockSelection(rock);
-} if (gameType === "paper") {
-    displayPaperSelection(paper);
-} if (gameType === "scissors") {
-    displayScissorsSelection(scissors);
-}
+function userSelection() {
+
 
 }
 
@@ -47,8 +20,6 @@ if (gameType === "rock") {
  */
 function generateCpuChoice() {
 
-    //creates random cpu choice
-let cpuChoice = Math.floor(Math.random() * 3) + 1;
 }
 
 
@@ -64,18 +35,16 @@ function incrementCpuScore() {
 
 }
 
-function displayRockSelection(rock) {
+function displayRockSelection() {
 
-document.getElementById('rock').textContent = rock;
+
 }
 
-function displayPaperSelection(paper) {
+function displayPaperSelection() {
 
-document.getElementById('paper').textContent = paper;
 }
 
-function displayScissorsSelection(scissors) {
+function displayScissorsSelection() {
 
-document.getElementById('scissors').textContent = scissors;
 }
 
