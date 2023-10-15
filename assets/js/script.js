@@ -20,6 +20,8 @@ selectUserPlay(gameType);
     }
 
     selectUserPlay("rock");
+    selectUserPlay("paper");
+    selectUserPlay("scissors");
 
 })
     
@@ -27,6 +29,10 @@ selectUserPlay(gameType);
 function selectUserPlay(gameType) {
 if (gameType === "rock") {
     displayRockSelection(rock);
+} if (gameType === "paper") {
+    displayPaperSelection(paper);
+} if (gameType === "scissors") {
+    displayScissorsSelection(scissors);
 }
 
 }
@@ -58,11 +64,13 @@ function displayRockSelection(rock) {
 document.getElementById('rock').textContent = rock;
 }
 
-function displayPaperSelection() {
+function displayPaperSelection(paper) {
 
+document.getElementById('paper').textContent = paper;
 }
 
-function displayScissorsSelection() {
+function displayScissorsSelection(scissors) {
 
+document.getElementById('scissors').textContent = scissors;
 }
 
