@@ -4,7 +4,15 @@
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            if (this.getAttribute("data-type") === "rock", "paper", "scissors") {
+                userSelection();
+            }
+
 });
+
+}
     
 /**
  * Take user's game selection and show value on screen
@@ -12,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
  */
 function userSelection() {
 
+    let userSelection = parseInt(document.getElementsByClassName("btn-rock").value);
 
 }
 
@@ -22,8 +31,13 @@ function generateCpuChoice() {
 
 }
 
-
+/**
+ * Check user and computer selection and determine
+ * who's the winner
+ */
 function calculateWinner() {
+
+    let 
 
 }
 
@@ -47,4 +61,3 @@ function displayPaperSelection() {
 function displayScissorsSelection() {
 
 }
-
