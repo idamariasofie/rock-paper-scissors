@@ -29,7 +29,11 @@ function runGame(gameType) {
 
 }
 
-function selectGametype() {
+function selectUserPlay() {
+
+}
+
+function generateCpuChoice() {
 
 }
 
@@ -37,11 +41,10 @@ function calculateWinner() {
 
 }
 
-
-function incrementUserscore() {
+function incrementUserScore() {
 
 }
 
-function incrementComputerscore() {
+function incrementCpuScore() {
 
 }
