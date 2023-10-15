@@ -29,6 +29,10 @@ function userSelection() {
  */
 function generateCpuChoice() {
 
+    // Create cpu random choice 
+    let randomNumber = Math.floor(Math.random() * 3) + 1;
+
+    
 }
 
 /**
