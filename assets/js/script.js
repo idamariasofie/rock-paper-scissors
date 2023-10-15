@@ -33,8 +33,13 @@ function selectUserPlay() {
 
 }
 
+/**
+ * Generate random number to determine Cpu selection of game
+ */
 function generateCpuChoice() {
-
+    
+    //creates random cpu choice
+let cpuchoice = Math.floor(Math.random() * 3) + 1;
 }
 
 function calculateWinner() {
