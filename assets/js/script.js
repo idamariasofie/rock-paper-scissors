@@ -28,33 +28,23 @@ document.addEventListener("DOMContentLoaded", function () {
  * and after the user's answer has been processed 
  */
 function runGame(gameType) {
-}
-
-function incrementScore() {
 
 }
 
-/**
- * Gets the selected option (rock, paper, scissors) and the computers choice 
- * directly from the DOM and returns the winner. 
- */
+function selectGametype() {
+
+}
+
 function calculateWinner() {
 
 }
 
 
-function displayRockOption() {
-    
-}
-
-function displayPaperOption() {
+function incrementUserscore() {
 
 }
 
-function displayScissorsOption() {
+function incrementComputerscore() {
 
 }
 
-function displayWinner() {
-
-}
