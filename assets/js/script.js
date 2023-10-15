@@ -14,22 +14,20 @@ if (this.getAttribute("id") === "play-now") {
 alert("You clicked Reset!");
               else {
 let gameType = this.getAttribute("id");
-alert(`You clicked ${gameType}`);
+selectUserPlay(gameType);
              }
         })
     }
+
+    selectUserPlay("rock");
+
 })
     
 
-/**
- * The main game loop, called when the script is first loaded
- * and after the user's answer has been processed 
- */
-function runGame(gameType) {
-
+function selectUserPlay(gameType) {
+if (gameType === "rock") {
+    displayRockSelection(rock);
 }
-
-function selectUserPlay() {
 
 }
 
@@ -37,10 +35,11 @@ function selectUserPlay() {
  * Generate random number to determine Cpu selection of game
  */
 function generateCpuChoice() {
-    
+
     //creates random cpu choice
-let cpuchoice = Math.floor(Math.random() * 3) + 1;
+let cpuChoice = Math.floor(Math.random() * 3) + 1;
 }
+
 
 function calculateWinner() {
 
@@ -53,3 +52,17 @@ function incrementUserScore() {
 function incrementCpuScore() {
 
 }
+
+function displayRockSelection(rock) {
+
+document.getElementById('rock').textContent = rock;
+}
+
+function displayPaperSelection() {
+
+}
+
+function displayScissorsSelection() {
+
+}
+
