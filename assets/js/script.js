@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
             userSelection(this.getAttribute("data-type"));
             generateCpuChoice();
             calculateWinner();
+            generateGameWinner();
         });
     }
 
@@ -95,6 +96,18 @@ function incrementUserScore() {
 function incrementCpuScore() {
     let oldScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++oldScore;
+}
+
+/**
+ * Check if user or CPU have reached 10 wins
+ * to end game
+ */
+function generateGameWinner() {
+    if (incrementUserScore === 5 && incrementCpuScore < 5) {
+        
+    } else if (incrementUserScore < 5 && incrementCpuScore === 5) {
+
+    } 
 }
 
 
