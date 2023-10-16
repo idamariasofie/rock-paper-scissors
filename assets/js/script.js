@@ -1,3 +1,8 @@
+const controlButtons = document.querySelectorAll(".control-button");
+
+let userChoice;
+
+
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
 
@@ -5,14 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
     for (let button of buttons) {
-        button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "rock") {
-                userSelection();
-            }
+        for (let button of controlButtons) {
+            button.addEventListener("click", function () {
+                userSelection(this.getAttribute("data-type"));
+            });
+        }
 
-});
-
-}
+    });
     
 /**
  * Take user's game selection and show value on screen
