@@ -36,6 +36,20 @@ body {
 
 /* Buttons */
 
+.btn--instructions,
+.btn--reset {
+    background: #333;
+    color: rgb(255, 255, 248);
+    border-radius: 2px;
+    width: 150px;
+    height: 30px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+
 .btn-rock,
 .btn-paper,
 .btn-scissors {
