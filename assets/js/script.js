@@ -71,19 +71,19 @@ function calculateWinner() {
     } else if (userChoice == 1 && cpuChoice == 2) {
         console.log("CPU wins with rock, user chose scissors");
         incrementCpuScore();
+    } else if (userChoice == 2 && cpuChoice == 3) {
+        console.log("CPU wins with scissors, user chose paper");
+        incrementCpuScore();  
     } else if (userChoice == 2 && cpuChoice == 1) {
         console.log("User wins with paper, CPU chose rock");
         incrementUserScore();
-    } else if (userChoice == 2 && cpuChoice == 3) {
-        console.log("CPU wins with scissors, user chose paper");
-        incrementCpuScore();    
-    } else {
-        console.log("Uh oh");
+    } else if (userChoice == 3 && cpuChoice == 1) {
+        console.log("CPU wins with rock, User chose scissors");
+        incrementCpuScore();
+    } else (userChoice == 3 && cpuChoice == 2); {
+        console.log("User wins with scissors, CPU chose paper");
+        incrementUserScore();   
     }
-
-
-
-
 }
 
 function incrementUserScore() {
