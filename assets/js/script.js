@@ -19,12 +19,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     
 /**
- * Take user's game selection and show value on screen
- * and call the computer choice function 
+ * Register user's game selection and show value on screen
  */
 function userSelection() {
 
-    let userSelection = parseInt(document.getElementsByClassName("btn-rock").value);
+
+switch (dataType) {
+case "rock":
+    userChoice = 1;
+    break;
+    case "paper":
+        userChoice = 2;
+        break;
+        case "scissors":
+            userChoice = 3;
+            break;
+        }
 
 }
 
