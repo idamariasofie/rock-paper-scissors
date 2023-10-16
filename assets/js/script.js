@@ -1,7 +1,7 @@
 const controlButtons = document.querySelectorAll(".control-button");
 
 let userChoice;
-
+let cpuChoice;
 
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let button of controlButtons) {
             button.addEventListener("click", function () {
                 userSelection(this.getAttribute("data-type"));
+                generateCpuChoice();
             });
         }
 
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /**
  * Register user's game selection and show value on screen
  */
-function userSelection() {
+function userSelection(dataType) {
 
 
 switch (dataType) {
@@ -43,10 +44,7 @@ case "rock":
  */
 function generateCpuChoice() {
 
-    // Create cpu random choice 
-    let randomNumber = Math.floor(Math.random() * 3) + 1;
-
-    
+cpuChoice = Math.floor(Math.random() * 3) + 1;
 }
 
 /**
