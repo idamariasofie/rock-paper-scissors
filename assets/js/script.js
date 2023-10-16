@@ -4,6 +4,7 @@ let userChoice;
 let cpuChoice;
 
 
+
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
 
@@ -87,11 +88,13 @@ function calculateWinner() {
 }
 
 function incrementUserScore() {
-    document.getElementById("user-score").textContent = parseInt(document.getElementById("user-score").textContent)++;
+    let oldScore = parseInt(document.getElementById("user-score").innerText);
+    document.getElementById("user-score").innerText = ++oldScore;
 }
 
 function incrementCpuScore() {
-    document.getElementById("computer-score").textContent = parseInt(document.getElementById("computer-score").textContent)++;
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScore;
 }
 
 
