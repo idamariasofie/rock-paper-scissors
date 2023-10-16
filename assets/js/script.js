@@ -3,21 +3,22 @@ const controlButtons = document.querySelectorAll(".control-button");
 let userChoice;
 let cpuChoice;
 
+
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
 
 document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByTagName("button");
+    // let buttons = document.getElementsByTagName("button");
+    for (let button of controlButtons) {
+        button.addEventListener("click", function () {
+            userSelection(this.getAttribute("data-type"));
+            generateCpuChoice();
+            calculateWinner();
+        });
+    }
 
-    for (let button of buttons) {
-        for (let button of controlButtons) {
-            button.addEventListener("click", function () {
-                userSelection(this.getAttribute("data-type"));
-                generateCpuChoice();
-            });
-        }
+});
 
-    });
     
 /**
  * Register user's game selection and show value on screen
@@ -53,7 +54,7 @@ cpuChoice = Math.floor(Math.random() * 3) + 1;
  */
 function calculateWinner() {
 
-    let 
+
 
 }
 
