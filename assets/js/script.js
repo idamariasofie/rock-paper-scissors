@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     for (let button of buttons) {
         button.addEventListener("click", function () {
-            if (this.getAttribute("data-type") === "rock", "paper", "scissors") {
+            if (this.getAttribute("data-type") === "rock") {
                 userSelection();
             }
 
