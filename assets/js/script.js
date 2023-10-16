@@ -87,12 +87,13 @@ function calculateWinner() {
 }
 
 function incrementUserScore() {
-
+    document.getElementById("user-score").textContent = parseInt(document.getElementById("user-score").textContent)++;
 }
 
 function incrementCpuScore() {
-
+    document.getElementById("computer-score").textContent = parseInt(document.getElementById("computer-score").textContent)++;
 }
+
 
 function displayRockSelection() {
 
