@@ -46,7 +46,7 @@ body {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    margin: 0 30px;
+    margin: 20px 30px;
     transition: all 0.5s;
 }
 
@@ -63,6 +63,12 @@ body {
 .control-button {}
 
 
+/* Score board */
+
+.score-board {
+    padding: 2%;
+    margin: 20px 5px;
+}
 
 /* Media queries */
 
