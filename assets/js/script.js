@@ -1,4 +1,5 @@
 const controlButtons = document.querySelectorAll(".control-button");
+const userMessage = document.querySelector("#userMessage");
 
 let userChoice;
 let cpuChoice;
@@ -57,16 +58,10 @@ cpuChoice = Math.floor(Math.random() * 3) + 1;
 function calculateWinner() {
     if (userChoice == 1 && cpuChoice == 1) {
         console.log("Both chose rock, it's a draw");
-        incrementUserScore();
-        incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 2) {
         console.log("Both chose paper, it's a draw");
-        incrementUserScore();
-        incrementCpuScore();
     } else if (userChoice == 3 && cpuChoice == 3) {
         console.log("Both chose scissors, it's a draw");
-        incrementUserScore();
-        incrementCpuScore();
     } else if (userChoice == 1 && cpuChoice == 3) {
         console.log("User wins with rock, cpu chose scissors");
         incrementUserScore();
@@ -103,12 +98,10 @@ function incrementCpuScore() {
  * to end game
  */
 function generateGameWinner() {
-let gameState = 
-
-    if (incrementUserScore === 5 && incrementCpuScore < 5) {
-        
-    } else if (incrementUserScore < 5 && incrementCpuScore === 5) {
-
+    if (incrementUserScore === 10 && incrementCpuScore < 10) {
+        userMessage.innerHTML = "You win!";
+    } else if (incrementUserScore < 10 && incrementCpuScore === 10) {
+        userMessage.innerHTML = "Cpu wins!";
     } 
 }
 
