@@ -56,9 +56,12 @@ cpuChoice = Math.floor(Math.random() * 3) + 1;
  * who's the winner
  */
 function calculateWinner() {
+
+    let winner = "";
+
     if (userChoice == 1 && cpuChoice == 1) {
         console.log("Both chose rock, it's a draw");
-    } else if (userChoice == 2 && cpuChoice == 2) {
+} else if (userChoice == 2 && cpuChoice == 2) {
         console.log("Both chose paper, it's a draw");
     } else if (userChoice == 3 && cpuChoice == 3) {
         console.log("Both chose scissors, it's a draw");
@@ -77,10 +80,11 @@ function calculateWinner() {
     } else if (userChoice == 3 && cpuChoice == 1) {
         console.log("CPU wins with rock, User chose scissors");
         incrementCpuScore();
-    } else if (userChoice == 3 && cpuChoice == 2); {
+    } else (userChoice == 3 && cpuChoice == 2); {
         console.log("User wins with scissors, CPU chose paper");
         incrementUserScore();   
     }
+    return winner;
 }
 
 function incrementUserScore() {
