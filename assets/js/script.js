@@ -1,8 +1,12 @@
 const controlButtons = document.querySelectorAll(".control-button");
 const userMessage = document.querySelector("#userMessage");
+const userPlayImg = `assets/images/user-${userDirection}-cpu-${cpuDirection}.png`;
+    const cpuPlayImg = `assets/images/cpu-${cpuDirection}-user-${userDirection}.png`;
+
 
 let userChoice;
 let cpuChoice;
+
 
 
 
@@ -27,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
  * Register user's game selection and show value on screen
  */
 function userSelection(dataType) {
-
 
 switch (dataType) {
 case "rock":
@@ -57,7 +60,8 @@ cpuChoice = Math.floor(Math.random() * 3) + 1;
  */
 function calculateWinner() {
 
-    let winner = "";
+    let rock = document.getElementById("rock");
+
 
     if (userChoice == 1 && cpuChoice == 1) {
         console.log("Both chose rock, it's a draw");
@@ -84,7 +88,6 @@ function calculateWinner() {
         console.log("User wins with scissors, CPU chose paper");
         incrementUserScore();   
     }
-    return winner;
 }
 
 function incrementUserScore() {
@@ -109,6 +112,13 @@ function generateGameWinner() {
     } 
 }
 
+function displayGameIcon(rock, paper, scissors) {
+
+    document.getElementById('rock').textContent = rock;
+    document.getElementById('paper').textContent = paper;
+    document.getElementById('scissors').textContent = scissors;
+
+}
 
 function displayRockSelection() {
 

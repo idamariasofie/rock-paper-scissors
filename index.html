@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags -->
-    <meta name="keywords" content="rock, papaer, scissors, game, play, rock paper scissors game">
+    <meta
+      name="keywords"
+      content="rock, papaer, scissors, game, play, rock paper scissors game">
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200;300&family=Source+Serif+4:opsz,wght@8..60,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200;300&family=Source+Serif+4:opsz,wght@8..60,300&display=swap"
+      rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icons" href="assets/images/favicon hand.png" type="image/x-icon">
     <!-- Css file -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Favicon -->
-    <title>Rock Paper Scissors</title>
-    <link rel="icons" href="assets/images/favicon hand.png" type="image/x-icon">
-</head>
+<title>Rock Paper Scissors</title>
+  </head>
 
-<body>
-<!-- Header -->
-<header class="heading">
-<h1>Rock Paper Scissors</h1>
-</header>
+  <body>
+    <!-- Header -->
+    <header class="heading">
+    <h1>Rock Paper Scissors</h1>
+    </header>
 
-<!-- Instruction text content -->
+    <!-- Instruction text content -->
 
+    <!-- Instructions area -->
+    <button class="btn--instructions" id="instructions">Instructions</button>
+    <button class="btn--reset" id="reset">Reset</button>
 
+    <!-- Game board-->
+    <h2><span id="play">Let's play</span></h2>
+    <section class="game-board">
+      <img id="gameIcons" src="assets/images/icons rock paper scissors.png" alt="rock paper scissors icons">
+    </section>
 
-<!-- Instructions area -->
-<button class="btn--instructions" id="instructions">Instructions</button>
-<button class="btn--reset" id="reset">Reset</button>
+    <!-- Score board -->
+    <div class="score-board">
+      <h2>
+        You <span id="user-score">0</span> -
+        <span id="computer-score">0</span> Computer
+      </h2>
+    </div>
 
-<!-- Game board-->
-<h2><span id="play">Let's play</span></h2>
-<section class="game-board">
-<img id="game-icons" src="assets/images/icons rock paper scissors.png" alt="rock paper scissors icons">
-</section>
-
-<!-- Score board -->
-<div class="score-board">
-<h2>You <span id="user-score">0</span> - <span id="computer-score">0</span> Computer</h2>
-</div>
-
-<!-- User instructions -->
-<h3><span id="userMessage">It's your turn</span></h3>
-
-<!-- Game buttons to play -->
-<div class="play-area"></div>
-<div class="controls-area">
-<button data-type="rock" class="control-button" id="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
-<button data-type="paper" class="control-button" id="paper"><i class="fa-regular fa-hand"></i></button>
-<button data-type="scissors" class="control-button" id="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
-</div>
+    <!-- Game buttons to play -->
+    <div class="play-area"></div>
+    <div class="controls-area">
+      <button data-type="rock" class="control-button" id="rock">
+        <i class="fa-regular fa-hand-back-fist"></i>
+      </button>
+      <button data-type="paper" class="control-button" id="paper">
+        <i class="fa-regular fa-hand"></i>
+      </button>
+      <button data-type="scissors" class="control-button" id="scissors">
+        <i class="fa-regular fa-hand-scissors"></i>
+      </button>
+    </div>
 
     <!-- Footer -->
-<footer>
-    <p>Developed by <a href="https://github.com/idamariasofie" target="_blank">Sofie Andersson</a> For Code Institute's portfolio project 2</p>
-</footer>
-<!-- Font awesome kit -->
-<script src="https://kit.fontawesome.com/719598697c.js" crossorigin="anonymous"></script>
+    <footer>
+      <p>
+        Developed by
+        <a href="https://github.com/idamariasofie" target="_blank"
+          >Sofie Andersson</a
+        >
+        For Code Institute's portfolio project 2
+      </p>
+    </footer>
+    <!-- Font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/719598697c.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- JavaScript file -->
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
