@@ -29,14 +29,18 @@ document.addEventListener("DOMContentLoaded", function () {
 /**
  * Open instructions modal window 
  */
-function openInstructions() {
+instructionsButton.onclick = () => {
     backdrop.style.display = 'block';
     modal.style.display = 'block';
-}
+};
 
-function closeInstructions() {
-    backdrop.style.display = 'none';
-    modal.style.display = 'none';
+/**
+ * Close instructions modal window by clicking outside modal
+ */
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
 }
 
 /**
@@ -45,23 +49,23 @@ function closeInstructions() {
 resetButton.addEventListener("click", () => {
     location.reload();
 });
-    
+
 /**
  * Register user's game selection and show value on screen
  */
 function userSelection(dataType) {
 
-switch (dataType) {
-case "rock":
-    userChoice = 1;
-    break;
-    case "paper":
-        userChoice = 2;
-        break;
+    switch (dataType) {
+        case "rock":
+            userChoice = 1;
+            break;
+        case "paper":
+            userChoice = 2;
+            break;
         case "scissors":
             userChoice = 3;
             break;
-        }
+    }
 
 }
 
@@ -70,7 +74,7 @@ case "rock":
  */
 function generateCpuChoice() {
 
-cpuChoice = Math.floor(Math.random() * 3) + 1;
+    cpuChoice = Math.floor(Math.random() * 3) + 1;
 }
 
 /**
@@ -78,9 +82,9 @@ cpuChoice = Math.floor(Math.random() * 3) + 1;
  * who's the winner
  */
 function calculateWinner() {
-if (userChoice == 1 && cpuChoice == 1) {
+    if (userChoice == 1 && cpuChoice == 1) {
         console.log("Both chose rock, it's a draw");
-} else if (userChoice == 2 && cpuChoice == 2) {
+    } else if (userChoice == 2 && cpuChoice == 2) {
         console.log("Both chose paper, it's a draw");
     } else if (userChoice == 3 && cpuChoice == 3) {
         console.log("Both chose scissors, it's a draw");
@@ -92,7 +96,7 @@ if (userChoice == 1 && cpuChoice == 1) {
         incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 3) {
         console.log("CPU wins with scissors, user chose paper");
-        incrementCpuScore();  
+        incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 1) {
         console.log("User wins with paper, CPU chose rock");
         incrementUserScore();
@@ -101,7 +105,7 @@ if (userChoice == 1 && cpuChoice == 1) {
         incrementCpuScore();
     } else (userChoice == 3 && cpuChoice == 2); {
         console.log("User wins with scissors, CPU chose paper");
-        incrementUserScore();   
+        incrementUserScore();
     }
 }
 
@@ -124,7 +128,7 @@ function generateGameWinner() {
         userMessage.innerHTML = "You win!";
     } else if (incrementUserScore < 10 && incrementCpuScore === 10) {
         userMessage.innerHTML = "Cpu wins!";
-    } 
+    }
 }
 
 function displayGameIcon(rock, paper, scissors) {
