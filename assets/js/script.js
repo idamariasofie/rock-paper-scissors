@@ -1,8 +1,5 @@
 const controlButtons = document.querySelectorAll(".control-button");
 const userMessage = document.querySelector("#userMessage");
-var instructionsButton = document.querySelector('.btn--instructions');
-var backdrop = document.querySelector('.settings');
-var modal = document.querySelector('.instructions-text');
 
 let resetButton = document.getElementById("reset");
 let userChoice;
@@ -25,23 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
-
-/**
- * Open instructions modal window 
- */
-instructionsButton.onclick = () => {
-    backdrop.style.display = 'block';
-    modal.style.display = 'block';
-};
-
-/**
- * Close instructions modal window by clicking outside modal
- */
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = 'none';
-    }
-}
 
 /**
  * Reset button settings
