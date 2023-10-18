@@ -39,9 +39,6 @@ function closeInstructions() {
     modal.style.display = 'none';
 }
 
-instructionsButton.onclick = openModal;
-backdrop.onclick = closeModal;
-
 /**
  * Reset button settings
  */
