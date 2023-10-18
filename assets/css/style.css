@@ -15,6 +15,26 @@ body {
     font-size: 2.5rem;
 }
 
+/* Instructions text and modal */
+.settings {
+    display: none;
+    position: fixed;
+    background:rgb(255, 255, 248);
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.instructions-text {
+    display: none;
+    position: fixed;
+    background: rgb(255, 255, 248);
+    color: black;
+    width: 260px;
+}
+
+
 /* Game area and icons layout */
 
 .game-board img {

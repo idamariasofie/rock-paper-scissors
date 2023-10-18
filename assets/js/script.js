@@ -1,12 +1,10 @@
 const controlButtons = document.querySelectorAll(".control-button");
 const userMessage = document.querySelector("#userMessage");
+var instructionsButton = document.querySelector('.btn--instructions');
+var backdrop = document.querySelector('.settings');
+var modal = document.querySelector('.instructions-text');
 
-let instructionsButton = document.getElementById("instructions");
-let instructionsText = document.querySelector(".settings");
-let closeButton = document.querySelector(".close-button");
 let resetButton = document.getElementById("reset");
-
-
 let userChoice;
 let cpuChoice;
 
@@ -29,21 +27,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /**
- * Instruction button and close button settings
+ * Open instructions modal window 
  */
-instructionsButton.addEventListener("click", () => {
-    instructions.style.display = "block";
-});
+function openInstructions() {
+    backdrop.style.display = 'block';
+    modal.style.display = 'block';
+}
 
-closeButton.addEventListener("click", () => {
-    instructions.style.display = "none";
-});
+function closeInstructions() {
+    backdrop.style.display = 'none';
+    modal.style.display = 'none';
+}
 
-window.addEventListener("click", (e) => {
-    if (e.target == instructions) {
-        instructions.style.display = "none";
-    }
-});
+instructionsButton.onclick = openModal;
+backdrop.onclick = closeModal;
 
 /**
  * Reset button settings
@@ -84,11 +81,7 @@ cpuChoice = Math.floor(Math.random() * 3) + 1;
  * who's the winner
  */
 function calculateWinner() {
-
-    let rock = document.getElementById("rock");
-
-
-    if (userChoice == 1 && cpuChoice == 1) {
+if (userChoice == 1 && cpuChoice == 1) {
         console.log("Both chose rock, it's a draw");
 } else if (userChoice == 2 && cpuChoice == 2) {
         console.log("Both chose paper, it's a draw");
