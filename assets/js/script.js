@@ -1,12 +1,14 @@
 const controlButtons = document.querySelectorAll(".control-button");
 const userMessage = document.querySelector("#userMessage");
-const userPlayImg = `assets/images/user-${userDirection}-cpu-${cpuDirection}.png`;
-    const cpuPlayImg = `assets/images/cpu-${cpuDirection}-user-${userDirection}.png`;
+
+let instructionsButton = document.getElementById("instructions");
+let instructionsText = document.querySelector(".settings");
+let closeButton = document.querySelector(".close-button");
+let resetButton = document.getElementById("reset");
 
 
 let userChoice;
 let cpuChoice;
-
 
 
 
@@ -26,6 +28,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+/**
+ * Instruction button and close button settings
+ */
+instructionsButton.addEventListener("click", () => {
+    instructions.style.display = "block";
+});
+
+closeButton.addEventListener("click", () => {
+    instructions.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+    if (e.target == instructions) {
+        instructions.style.display = "none";
+    }
+});
+
+/**
+ * Reset button settings
+ */
+resetButton.addEventListener("click", () => {
+    location.reload();
+});
     
 /**
  * Register user's game selection and show value on screen
