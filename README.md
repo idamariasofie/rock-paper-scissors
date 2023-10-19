@@ -82,6 +82,10 @@ I have used  Coolors.co to create the color scheme for the website. I wanted the
 
 I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used for all site text. I like the simple yet expressive look of this font.
 
+<img src="assets/images/mulish font.png" alt="font">
+
+<img src="assets/images/mulish font 2.png" alt="font">
+
 ##
 
 ## **Features**
@@ -90,12 +94,18 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
   - The site logo appears at the top of the page and shows the user the name of the game.
 
+<img src="assets/images/logo.png" alt="logo">
+
 - **Favicon**
 
   - The favicon on the browser tab contains a simple hand icon, this was developed with Illustrator.
 
+<img src="assets/images/favicon hand.png" alt="favicon">
+
 - **Game Settings Buttons**
   - The game settings buttons allows the user to read instructions and reset the game.
+
+
 
 - **Instructions**
   - The instructions button allows the user to see the game rules and instructions on how to play.
@@ -121,9 +131,13 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
  These icons were found on [FontAwesome](https://fontawesome.com/icons)
 
+ <img src="assets/images/play buttons.png" alt="gameicon">
+
 - **Footer**
 
   - The footer displays that I developed the site, a link to my Github that opens in a new tab, along with the project the page is for.
+  
+<img src="assets/images/footer.png" alt="footer">
 
 ##
 
