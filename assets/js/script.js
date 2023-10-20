@@ -83,7 +83,7 @@ function calculateWinner() {
     } else if (userChoice == 3 && cpuChoice == 1) {
         console.log("CPU wins with rock, User chose scissors");
         incrementCpuScore();
-    } else (userChoice == 3 && cpuChoice == 2); {
+    } else if (userChoice == 3 && cpuChoice == 2) {
         console.log("User wins with scissors, CPU chose paper");
         incrementUserScore();
     }
@@ -109,7 +109,7 @@ function generateGameWinner() {
 
     if (userScore === 10 && cpuScore < 10) {
         console.log("You win!");
-    } else if (cpuScore < 10 && userScore === 10) {
+    } else if (userScore < 10 && cpuScore === 10) {
         console.log("CPU wins!");
     }
 }
