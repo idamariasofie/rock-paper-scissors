@@ -2,9 +2,11 @@ const controlButtons = document.querySelectorAll(".control-button");
 const modal = document.querySelectorAll(".modal");
 const userMessage = document.querySelector("#gameinstructions");
 
+
 let resetButton = document.getElementById("reset");
 let instructionsButton = document.getElementById("instructions");
 let playNowButton = document.getElementById("play-now");
+let gameIcons = document.getElementById("gameIcons");
 let userChoice;
 let cpuChoice;
 
@@ -82,13 +84,16 @@ function generateCpuChoice() {
 /**
  * Check user and computer selection and determine
  * who's the winner
- */
+ */ 
 function calculateWinner() {
     if (userChoice == 1 && cpuChoice == 1) {
+        gameIcons.src = "assets/images/rock.png";
         userMessage.innerHTML = "Both chose rock, it's a draw";
     } else if (userChoice == 2 && cpuChoice == 2) {
+        gameIcons.src = "assets/images/paper.png";
        userMessage.innerHTML = "Both chose paper, it's a draw";
     } else if (userChoice == 3 && cpuChoice == 3) {
+        gameIcons.src = "assets/images/scissors.png";
         userMessage.innerHTML = "Both chose scissors, it's a draw";
     } else if (userChoice == 1 && cpuChoice == 3) {
         userMessage.innerHTML = "You win with rock, Cpu chose scissors";
@@ -136,23 +141,14 @@ function generateGameWinner() {
     }
 }
 
-function displayGameIcon(rock, paper, scissors) {
-
-    document.getElementById('rock').textContent = rock;
-    document.getElementById('paper').textContent = paper;
-    document.getElementById('scissors').textContent = scissors;
+function displayRock() {
 
 }
 
-function displayRockSelection() {
-
-
-}
-
-function displayPaperSelection() {
+function displayPaper() {
 
 }
 
-function displayScissorsSelection() {
+function displayScissors() {
 
 }

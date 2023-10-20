@@ -122,6 +122,11 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
   - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand.
 
+- **Game instructions**
+
+<img src="assets/images/game instructions.png" alt="gameinstructions">
+
+
 - **Scoreboard**
 
   - The scoreboard displays the current score of the game clearly indicating the user's and computer's score.
@@ -132,7 +137,7 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
  These icons were found on [FontAwesome](https://fontawesome.com/icons)
 
- <img src="assets/images/play buttons.png" alt="gameicon">
+ <img src="assets/images/game icons buttons.png" alt="gameicon">
 
 - **Footer**
 
@@ -192,9 +197,9 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - From the source section drop-down menu, select the  **Main**  Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found  [here.](https://adamgilroy22.github.io/stick-kick/)
 
-## [**Credits**](https://github.com/adamgilroy22/stick-kick#credits)
+
+## **Credits**
 
 ### **Code**
 
@@ -205,6 +210,8 @@ Favicon
 - <https://www.youtube.com/watch?app=desktop&v=o5ffh3KUaTM&pp=ygUeY3JlYXRlIG1vZGFsIHVzaW5nIGphdmFzY3JpcHQg>
 - Modal window
 <https://www.w3schools.com/howto/howto_css_modals.asp>
+-Display icons when clicking on buttons 
+https://www.w3schools.com/jsref/prop_style_visibility.asp 
 
 ### **Content**
 
