@@ -76,6 +76,7 @@ Home page
 
 I have used  Coolors.co to create the color scheme for the website. I wanted the game to have a clean and minimalistic look. Easy to understand and to interact with.
 
+<img src="assets/images/color scheme 1.png" alt="font">
 ##
 
 ### **Typography**
@@ -100,7 +101,7 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
   - The favicon on the browser tab contains a simple hand icon, this was developed with Illustrator.
 
-<img src="assets/images/favicon hand.png" alt="favicon">
+<img src="assets/images/favicon 1.png" alt="favicon">
 
 - **Game Settings Buttons**
   - The game settings buttons allows the user to read instructions and reset the game.
