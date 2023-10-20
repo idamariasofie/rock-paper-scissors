@@ -1,6 +1,6 @@
 # Rock Paper Scissors - Portfolio project 2
 
-This is a website for playing Rock Paper Scissors, the classic game where users compete against the computer in a game of chance, with the first to 10 wins.
+This is a website for playing Rock Paper Scissors, the classic game where users compete against the computer in a game of chance, with the first to 10 wins. I decided to create this game and teach my four year old to play it at the same time. 
 
 The aim of this project is to build an interactive front-end site which responds to the user's actions and altering the way the site displays information to achieve the user's game selections.
 
@@ -35,53 +35,58 @@ The aim of this project is to build an interactive front-end site which responds
 
   - Languages Used
   - Frameworks, Libraries & Programs Used
+  
 - Deployment & Local Development
 
   - Deployment
   - Local Development
-    - How to Fork
-    - How to Clone
+   
 - Testing
 
 - Credits
 
   - Code Used
   - Content
-  - [Media
   - Acknowledgments
 
 # **UX & Design**
 
-As the site is a single-serving site, there is only one page. I opted to keep the design of the page simple and clean so as it doesn't distract from the main game section of the page.
+As the site is a single-serving site, meaning there is only one page, I wanted to keep the design of the page simple and clean  Making it clear to the user entering this is a game page. 
 
 ### **User Stories**
 
-- As a user, I want to be able to see the site name clearly at the top of the page.
-- As a user, I want to be able to toggle the game's music on or off.
-- As a user, I want to be able to access instructions on how to play the game and easily exit the instructions without disrupting the game.
-- As a user, I want to be able to reset the game at any point.
-- As a user, I want to be able to clearly see the game and the current state (See if I'm kicking or saving and see if I scored a goal or saved a shot).
-- As a user, I want to be able to see the current score of the game.
-- As a user, I want to be able to control the game using clearly labelled buttons.
+Persona 1
+Age 15-25 years
+This is a person that loves simple and entertaning games online. 
+
+Persona 2
+Age 25-50 years
+This is a person that would play this game as it reminds them of their childhood, creating a nostalic feeling. 
+
+Persona 3
+50-75 years
+Since this is such a well-known game, I imagine people playing this at all ages of life, and it could be one of the first games to play when entering playing games online. 
 
 ##### **Wireframes**
 
-I used Balsamiq to develop the wireframes for the website.
+I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add on have been made when I started building the website and game, for example the game instructions. Since it made more sense to the game and made it more interactive with the user. 
 
 Home page
+
+<img src="assets/images/wireframe.png" alt="font">
 
 ##
 
 ### **Color Scheme**
 
-I have used  Coolors.co to create the color scheme for the website. I wanted the game to have a clean and minimalistic look. Easy to understand and to interact with.
+I have used [Coolors](https://coolors.co/) to create the color scheme for the website. I wanted the game to have a clean and minimalistic look. Easy to understand and to interact with.
 
 <img src="assets/images/color scheme 1.png" alt="font">
 ##
 
 ### **Typography**
 
-I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used for all site text. I like the simple yet expressive look of this font.
+I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for all site text. I like the simple yet expressive look of this font.
 
 <img src="assets/images/mulish font.png" alt="font">
 
@@ -99,14 +104,14 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
 - **Favicon**
 
-  - The favicon on the browser tab contains a simple hand icon, this was developed with Illustrator.
+  - The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. The same icons are used for displaying the user selection while playing. 
 
 <img src="assets/images/favicon 1.png" alt="favicon">
 
 - **Game Settings Buttons**
   - The game settings buttons allows the user to read instructions and reset the game.
 
-
+<img src="assets/images/settings buttons.png" alt="fettingsbuttons">
 
 - **Instructions**
   - The instructions button allows the user to see the game rules and instructions on how to play.
@@ -120,7 +125,9 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
 - **Game Image**
 
-  - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand.
+  - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand. I also wanted some icons that felt more "playfulness" adding some fun and creativity to the game. 
+
+<img src="assets/images/game icons.png" alt="gameimage">
 
 - **Game instructions**
 
@@ -129,11 +136,13 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
 - **Scoreboard**
 
-  - The scoreboard displays the current score of the game clearly indicating the user's and computer's score.
+  - The scoreboard displays the current score of the game clearly indicating the user's and computer's score. Making it easy for the user to follow along. 
+
+<img src="assets/images/score board.png" alt="score-board">
 
 - **Game Controls**
 
-  - The game control buttons allows the user to choose rock, paper, or scissors when playing.
+  - The game control buttons allows the user to choose rock, paper, or scissors when playing. I decided to turn the rock and scissors icons horizontally to make them more true to reality. 
 
  These icons were found on [FontAwesome](https://fontawesome.com/icons)
 
@@ -141,24 +150,17 @@ I used  [Google Fonts](https://fonts.google.com/)  to find the font Mauri used f
 
 - **Footer**
 
-  - The footer displays that I developed the site, a link to my Github that opens in a new tab, along with the project the page is for.
+  - The footer displays my name, the purpose of the project and a link to my Github that opens in a new tab. 
   
 <img src="assets/images/footer.png" alt="footer">
 
 ##
 
-### **Features Left to Implement**
+### **Features to implement**
 
-- **More Direction Options**
+- **Animation**
 
-  - I plan to add extra options to the controls which allows the user to choose top-left, top-middle, top-right, bottom-left, bottom-middle, and bottom-right.
-- **More Realistic Outcomes**
-
-  - I plan to tweak the game's logic to make it more true to a real life penalty shootout where it begins as a best out of 5 and if both sides are level after 5 kicks then it goes to sudden-death.
-  -
-- **Custom Characters**
-
-  - I plan to add customization to the characters so the player can choose what colour both their character and the computer's character are.
+For the future it would be great to add animated icons to add another dimension to the game and make it even more professional and fun to play. 
 
 ### **Technologies Used**
 
@@ -174,20 +176,17 @@ The following is a list of the technologies I used on this project.
   - Google Fonts was used to import the Mauri font for use on styles.css.
 - [Github](https://github.com/)
   - Github was used to store the project's code after being pushed from Git.
-- [Gitpod](https://gitpod.io/)
+- [Codeanywhere](https://gitpod.io/)
   - Gitpod terminal was used to commit my code using Git and push it to Github.
-- [Git](https://git-scm.com/)
-  - Git was used for version control through the Gitpod terminal.
-- [Canva](https://www.canva.com/)
-  - Canva was used to design the game images and the favicon.
 - [Balsamiq](https://balsamiq.com/)
   - Balsamiq was used to design the wireframes for the project.
-- [Techsini](http://techsini.com/multi-mockup/index.php)
-  - Techsini was used to generate mockups for the project.
-- [Root Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-  - I used root variables for my main black and white colours and the main font on my css file.
+- [Illustrator]
+  - Illustrator was used to design the game icons for the game. 
+
 
 ## **Testing**
+
+
 
 ## Deployment
 
@@ -198,10 +197,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 
-
 ## **Credits**
-
-### **Code**
 
 Favicon
 
@@ -215,7 +211,7 @@ https://www.w3schools.com/jsref/prop_style_visibility.asp
 
 ### **Content**
 
-- All website text content was created and written by me.
+- All website text content on the website was written and created by me. 
 
 
 ### **Design**
