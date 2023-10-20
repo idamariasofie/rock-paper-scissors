@@ -104,10 +104,13 @@ function incrementCpuScore() {
  * to end game
  */
 function generateGameWinner() {
-    if (incrementUserScore === 10 && incrementCpuScore < 10) {
-        userMessage.innerHTML = "You win!";
-    } else if (incrementUserScore < 10 && incrementCpuScore === 10) {
-        userMessage.innerHTML = "Cpu wins!";
+    let userScore = parseInt(document.getElementById("user-score").innerText);
+    let cpuScore = parseInt(document.getElementById("computer-score").innerText);
+
+    if (userScore === 10 && cpuScore < 10) {
+        console.log("You win!");
+    } else if (cpuScore < 10 && userScore === 10) {
+        console.log("CPU wins!");
     }
 }
 
