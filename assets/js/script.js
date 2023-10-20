@@ -130,9 +130,9 @@ function generateGameWinner() {
     let cpuScore = parseInt(document.getElementById("computer-score").innerText);
 
     if (userScore === 10 && cpuScore < 10) {
-        console.log("You win!");
+        userMessage.innerHTML = "YOU WIN!";
     } else if (userScore < 10 && cpuScore === 10) {
-        console.log("CPU wins!");
+        userMessage.innerHTML = "COMPUTER WINS!";
     }
 }
 
