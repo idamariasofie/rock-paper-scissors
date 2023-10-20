@@ -2,6 +2,9 @@ const controlButtons = document.querySelectorAll(".control-button");
 const userMessage = document.querySelector("#userMessage");
 
 let resetButton = document.getElementById("reset");
+let instructionsButton = document.getElementById("instructions");
+let modalBox = document.getElementById("modal-box");
+let playNowButton = document.getElementById("play-now");
 let userChoice;
 let cpuChoice;
 
@@ -22,6 +25,25 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
+/**
+ * Instructions button opening modal 
+ * with game instruction text
+ */
+instructionsButton.addEventListener("click", () => {
+    modal-box.style.display = "block";
+});
+
+playNowButton.addEventListener("click", () => {
+    modal-box.style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+    if(e.target == modalBox) {
+        modal-box.style.display = "none";
+    }
+});
+
 
 /**
  * Reset button settings
