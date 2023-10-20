@@ -85,28 +85,28 @@ function generateCpuChoice() {
  */
 function calculateWinner() {
     if (userChoice == 1 && cpuChoice == 1) {
-        console.log("Both chose rock, it's a draw");
+        userMessage.innerHTML = "Both chose rock, it's a draw";
     } else if (userChoice == 2 && cpuChoice == 2) {
-        console.log("Both chose paper, it's a draw");
+       userMessage.innerHTML = "Both chose paper, it's a draw";
     } else if (userChoice == 3 && cpuChoice == 3) {
-        console.log("Both chose scissors, it's a draw");
+        userMessage.innerHTML = "Both chose scissors, it's a draw";
     } else if (userChoice == 1 && cpuChoice == 3) {
-        console.log("User wins with rock, cpu chose scissors");
+        userMessage.innerHTML = "You win with rock, Cpu chose scissors";
         incrementUserScore();
     } else if (userChoice == 1 && cpuChoice == 2) {
-        console.log("CPU wins with rock, user chose scissors");
+        userMessage.innerHTML = "Cpu wins with rock, you chose scissors";
         incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 3) {
-        console.log("CPU wins with scissors, user chose paper");
+        userMessage.innerHTML = "Cpu wins with scissors, you chose paper";
         incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 1) {
-        console.log("User wins with paper, CPU chose rock");
+        userMessage.innerHTML = "You win with paper, Cpu chose rock";
         incrementUserScore();
     } else if (userChoice == 3 && cpuChoice == 1) {
-        console.log("CPU wins with rock, User chose scissors");
+        userMessage.innerHTML = "Cpu wins with rock, you chose scissors";
         incrementCpuScore();
     } else if (userChoice == 3 && cpuChoice == 2) {
-        console.log("User wins with scissors, CPU chose paper");
+       userMessage.innerHTML = "You win with scissors, Cpu chose paper";
         incrementUserScore();
     }
 }
