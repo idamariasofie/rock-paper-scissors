@@ -16,7 +16,7 @@ body {
 }
 
 /* Modal instructions window */
-.modal-box {
+.modal {
     display: none;
     position: fixed;
     background:rgb(255, 255, 248);

@@ -1,9 +1,9 @@
 const controlButtons = document.querySelectorAll(".control-button");
+const modal = document.querySelectorAll(".modal");
 const userMessage = document.querySelector("#userMessage");
 
 let resetButton = document.getElementById("reset");
 let instructionsButton = document.getElementById("instructions");
-let modalBox = document.getElementById("modal-box");
 let playNowButton = document.getElementById("play-now");
 let userChoice;
 let cpuChoice;
@@ -31,16 +31,16 @@ document.addEventListener("DOMContentLoaded", function () {
  * with game instruction text
  */
 instructionsButton.addEventListener("click", () => {
-    modal-box.style.display = "block";
+    modal.style.display = "block";
 });
 
 playNowButton.addEventListener("click", () => {
-    modal-box.style.display = "none";
+    modal.style.display = "none";
 });
 
 window.addEventListener("click", (e) => {
-    if(e.target == modalBox) {
-        modal-box.style.display = "none";
+    if (e.target == modal) {
+        modal.style.display = "none";
     }
 });
 
