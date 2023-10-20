@@ -1,6 +1,6 @@
 const controlButtons = document.querySelectorAll(".control-button");
 const modal = document.querySelectorAll(".modal");
-const userMessage = document.querySelector("#userMessage");
+const userMessage = document.querySelector("#gameinstructions");
 
 let resetButton = document.getElementById("reset");
 let instructionsButton = document.getElementById("instructions");
