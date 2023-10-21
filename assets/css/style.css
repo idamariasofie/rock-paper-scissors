@@ -112,12 +112,13 @@ body {
     }
 
     .control-button {
-        margin: 0 10px;
-        padding: 5px;
-        border: 5px solid;
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
+    background: none;
+            border: none;
+            width: 150px;
+            height: 150px;
+            font-size: 2.5rem;
+            transition: all 0.5s;
+            border-radius: 5px;
     }
 
     .btn::after {
@@ -144,9 +145,25 @@ body {
         margin: 10px auto;
     }
 
-    .btn--instructions {
-        margin: 10px 10px;
+    .btn--instructions,
+    .btn--reset {
+        margin: 0 10px;
+        border: none;
+            padding: 5px;
+            width: 100px;
+            height: 100px;
+            font-size: 1rem;
     }
+
+        .control-button {
+            background: none;
+            border: none;
+            width: 150px;
+            height: 150px;
+            font-size: 2.5rem;
+            transition: all 0.5s;
+            border-radius: 5px;
+        }
 
     .question-area {
         padding: 10px 0;

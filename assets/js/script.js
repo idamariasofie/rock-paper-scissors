@@ -90,28 +90,27 @@ function calculateWinner() {
         gameIcons.src = "assets/images/rock.png";
         userMessage.innerHTML = "Both chose rock, it's a draw";
     } else if (userChoice == 2 && cpuChoice == 2) {
-        gameIcons.src = "assets/images/paper.png";
        userMessage.innerHTML = "Both chose paper, it's a draw";
     } else if (userChoice == 3 && cpuChoice == 3) {
         gameIcons.src = "assets/images/scissors.png";
         userMessage.innerHTML = "Both chose scissors, it's a draw";
     } else if (userChoice == 1 && cpuChoice == 3) {
-        userMessage.innerHTML = "You win with rock, Cpu chose scissors";
+        userMessage.innerHTML = "You win with rock, CPU chose scissors";
         incrementUserScore();
     } else if (userChoice == 1 && cpuChoice == 2) {
-        userMessage.innerHTML = "Cpu wins with rock, you chose scissors";
+        userMessage.innerHTML = "CPU wins with rock, you chose scissors";
         incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 3) {
-        userMessage.innerHTML = "Cpu wins with scissors, you chose paper";
+        userMessage.innerHTML = "CPU wins with scissors, you chose paper";
         incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 1) {
-        userMessage.innerHTML = "You win with paper, Cpu chose rock";
+        userMessage.innerHTML = "You win with paper, CPU chose rock";
         incrementUserScore();
     } else if (userChoice == 3 && cpuChoice == 1) {
-        userMessage.innerHTML = "Cpu wins with rock, you chose scissors";
+        userMessage.innerHTML = "CPU wins with rock, you chose scissors";
         incrementCpuScore();
     } else if (userChoice == 3 && cpuChoice == 2) {
-       userMessage.innerHTML = "You win with scissors, Cpu chose paper";
+       userMessage.innerHTML = "You win with scissors, CPU chose paper";
         incrementUserScore();
     }
 }
