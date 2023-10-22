@@ -1,8 +1,6 @@
 const controlButtons = document.querySelectorAll(".control-button");
 const modal = document.getElementById("modal");
 const userMessage = document.querySelector("#gameinstructions");
-const userImage = document.createElement("img)");
-const cpuImage = document.createElement("img");
 
 
 let resetButton = document.getElementById("reset");
@@ -65,15 +63,12 @@ function userSelection(dataType) {
     switch (dataType) {
         case "rock":
             userChoice = 1;
-            gameIcons.src = "assets/images/1.png";
             break;
         case "paper":
             userChoice = 2;
-            gameIcons.src = "assets/images/2.png";
             break;
         case "scissors":
             userChoice = 3;
-            gameIcons.src = "assets/images/3.png";
             break;
     }
 
@@ -155,11 +150,10 @@ function showWinningRoundImages(userChoice, cpuChoice) {
     let cpuImage = document.createElement("img").src(`assets/images/${cpuChoice}.png`);
     cpuImage.className("completedAction");
     
-    if (userChoice === cpuChoice) {
+    if (userChoice == cpuChoice) {
         gameIcons.src = `assets/images/${userChoice}.png`;
+        return;
     } else if (cpuChoice === userChoice) {
         gameIcons.src = `assets/images/${cpuChoice}.png`;
-    } else {
-        gameIcons.src = `assets/images/${userChoice}.png`;
     }
 }
