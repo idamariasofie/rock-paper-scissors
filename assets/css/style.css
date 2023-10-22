@@ -26,12 +26,6 @@ body {
     z-index: 1;
 }
 
-
-
-/* Modal instruction text */
-
-
-
 /* Game area and icons layout */
 
 .game-board img {
@@ -49,6 +43,13 @@ body {
     padding: 1%;
 }
 
+/* Rock, paper, scissors icons display game winner */
+#1rock,
+#2paper,
+#3scissors {
+width: 85%;
+height: 65%;
+}
 
 
 /* Buttons */

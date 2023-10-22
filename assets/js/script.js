@@ -20,9 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // let buttons = document.getElementsByTagName("button");
     for (let button of controlButtons) {
         button.addEventListener("click", function () {
-            userSelection(this.getAttribute("data-type"));
+            generateUserChoice(this.getAttribute("data-type"));
             generateCpuChoice();
             calculateWinner();
+            showWinningRoundImages(userChoice, cpuChoice);
             generateGameWinner();
         });
     }
@@ -58,7 +59,7 @@ resetButton.addEventListener("click", () => {
 /**
  * Register user's game selection 
  */
-function userSelection(dataType) {
+function generateUserChoice(dataType) {
 
     switch (dataType) {
         case "rock":
@@ -92,7 +93,6 @@ function calculateWinner() {
     } else if (userChoice == 2 && cpuChoice == 2) {
        userMessage.innerHTML = "Both chose paper, it's a draw";
     } else if (userChoice == 3 && cpuChoice == 3) {
-        gameIcons.src = "assets/images/scissors.png";
         userMessage.innerHTML = "Both chose scissors, it's a draw";
     } else if (userChoice == 1 && cpuChoice == 3) {
         userMessage.innerHTML = "You win with rock, CPU chose scissors";
@@ -144,15 +144,16 @@ function generateGameWinner() {
  * Show the winning icon on screen after draw
  */
 function showWinningRoundImages(userChoice, cpuChoice) {
-    let userImage = document.createElement("img").src(`assets/images/${userChoice}.png`);
-    userImage.className("completedAction");
+   let userImage = document.createElement("img");
+    userImage.src = `assets/images/${userChoice}.png`;
+    userImage.classList.add("completedAction");
 
-    let cpuImage = document.createElement("img").src(`assets/images/${cpuChoice}.png`);
-    cpuImage.className("completedAction");
-    
-    if (userChoice == cpuChoice) {
+    let cpuImage = document.createElement("img");
+    cpuImage.src = `assets/images/${cpuChoice}.png`;
+    cpuImage.classList.add("completedAction");
+
+    if (userChoice === cpuChoice) {
         gameIcons.src = `assets/images/${userChoice}.png`;
-        return;
     } else if (cpuChoice === userChoice) {
         gameIcons.src = `assets/images/${cpuChoice}.png`;
     }
