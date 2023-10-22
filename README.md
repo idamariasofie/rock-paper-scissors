@@ -8,14 +8,14 @@ The aim of this project is to build an interactive front-end site which responds
 
 # Contents
 
-- UX & Design
+- UX & Design 
 - User Experience
 
   - User Stories
 
 - Design
 
-  - Colour Scheme
+  - Color Scheme
 
   - Typography
 
@@ -25,7 +25,7 @@ The aim of this project is to build an interactive front-end site which responds
 
 - Features
 
-  - General Features on Each Page
+  - General Features
   -
   - Future Implementations
   -
@@ -51,25 +51,25 @@ The aim of this project is to build an interactive front-end site which responds
 
 # **UX & Design**
 
-As the site is a single-serving site, meaning there is only one page, I wanted to keep the design of the page simple and clean  Making it clear to the user entering this is a game page. 
+As the site is a single-serving site, meaning there is only one page, I wanted to keep the design of the page simple and clean  Making it clear to the user visiting the website this is a game page. 
 
 ### **User Stories**
 
 Persona 1
-Age 15-25 years
-This is a person that loves simple and entertaning games online. 
+Age 4-15 years
+One of the first games you learn as a child and young teenager. Fun to play and to learn at the same time online. 
 
 Persona 2
-Age 25-50 years
+Age 15-50 years
 This is a person that would play this game as it reminds them of their childhood, creating a nostalic feeling. 
 
 Persona 3
 50-75 years
-Since this is such a well-known game, I imagine people playing this at all ages of life, and it could be one of the first games to play when entering playing games online. 
+Since this is such a well-known game, I imagine people playing this at all ages of life.  
 
 ##### **Wireframes**
 
-I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add on have been made when I started building the website and game, for example the game instructions. Since it made more sense to the game and made it more interactive with the user. 
+I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add ons have been made when I started building the website and game, for example the game message instruction, declaring the winner of of each draw and the game. Since it made more sense to the game and made it more interactive. 
 
 Home page
 
@@ -104,28 +104,25 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 - **Favicon**
 
-  - The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. The same icons are used for displaying the user selection while playing. 
-
+  - The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. 
+  - 
 <img src="assets/images/favicon-hand.png" alt="favicon">
 
 - **Game Settings Buttons**
-  - The game settings buttons allows the user to read instructions and reset the game.
+- 
+  - The game settings buttons, allows the user to read game instructions and reset the game at any time.
 
-<img src="assets/images/settings-buttons.png" alt="fettingsbuttons">
-
-- **Instructions**
-  - The instructions button allows the user to see the game rules and instructions on how to play.
-
-- **Reset**
-  - The reset button allows the user to reset the game at any point while playing.
+<img src="assets/images/settings-buttons.png" alt="settingsbuttons">
 
 - **Modal Box with instructions**
 
-  - The instructions modal box appears when the user clicks on the instructions button and gives the user a rundown on the game's rules and controls. The box can be closed by either clicking the "Play Game" button at the bottom or clicking anywhere outside of the box without disrupting the game.
+  - The instructions modal box appears when the user clicks on the instructions button, and gives the user a rundown on the game's rules. The box can be closed by clicking the "Play now" button at the bottom. 
+  - 
+<img src="assets/images/modal-text.png" alt="modal">
 
 - **Game Image**
 
-  - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand. I also wanted some icons that felt more "playfulness" adding some fun and creativity to the game. 
+  - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand. I also wanted some icons that felt more "playfull" adding some fun and creativity to the game. 
 
 <img src="assets/images/icons-rock-paper-scissors.png" alt="gameimage">
 
@@ -192,32 +189,46 @@ The following is a list of the technologies I used on this project.
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-- In the  [GitHub repository navigate to the Settings tab.
+- In the [GitHub repository navigate to the Settings tab.
 - From the source section drop-down menu, select the  **Main**  Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 
 ## **Credits**
 
-Favicon
+Favicon info: <https://www.w3schools.com/html/html_favicon.asp>
 
-- <https://www.w3schools.com/html/html_favicon.asp>
-- Modal window
-- <https://www.youtube.com/watch?app=desktop&v=o5ffh3KUaTM&pp=ygUeY3JlYXRlIG1vZGFsIHVzaW5nIGphdmFzY3JpcHQg>
-- Modal window
+How to create a modal box: <https://www.youtube.com/watch?app=desktop&v=o5ffh3KUaTM&pp=ygUeY3JlYXRlIG1vZGFsIHVzaW5nIGphdmFzY3JpcHQg>
+
+How to create a modal box:
 <https://www.w3schools.com/howto/howto_css_modals.asp>
--Display icons when clicking on buttons 
+
+Style visibility display: 
+
 https://www.w3schools.com/jsref/prop_style_visibility.asp 
+
+Game messages for user:
+
+Stick Kick project by Adam Gilroy 
+
+<https://github.com/adamgilroy22/stick-kick>
+
+Reset button:
+
+<https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/#:~:text=You%20can%20use%20the%20location>,method%20responsible%20for%20page%20reloading.
+
+Rock, paper, scissors button icons:
+
+fontawesome
+
+Colored rock, paper, scissors images:
+
+Made by me in Illustrator 
 
 ### **Content**
 
-- All website text content on the website was written and created by me. 
-
-
-### **Design**
-
-
-### **Media**
+- All website text content on the website was written and created by me.
+- Game instructions text inspired by <https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/game-theory/psr.html#:~:text=Rock%2C%20Paper%2C%20Scissors>,beats%20rock%20by%20covering%20it.
 
 
 ## **Acknowledgements**
