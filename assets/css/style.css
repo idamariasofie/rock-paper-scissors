@@ -20,10 +20,21 @@ body {
     display: none;
     position: fixed;
     background:rgb(255, 255, 248);
+    padding: 20px;
     top: 0;
     height: 100vh;
     width: 100vw;
     z-index: 1;
+}
+
+/* Modal text */
+.modal-text {
+    position: relative;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    font-size: 1.5rem;
 }
 
 /* Game area and icons layout */
@@ -66,6 +77,19 @@ height: 65%;
     letter-spacing: 1.2px;
     margin: 20px 30px;
     transition: all 0.5s;
+}
+
+#play-now {
+    background: #333;
+        color: rgb(255, 255, 248);
+        border-radius: 2px;
+        width: 150px;
+        height: 30px;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        margin: 20px 30px;
+        transition: all 0.5s;
 }
 
 .control-button {
