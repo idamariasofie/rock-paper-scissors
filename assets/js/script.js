@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /**
- * Instructions button opening modal 
+ * Instructions button opening and closing modal 
  * with game instruction text
  */
 instructionsButton.addEventListener("click", () => {
@@ -140,14 +140,8 @@ function generateGameWinner() {
     }
 }
 
-function displayRock() {
+function showWinningRoundImages(userChoice, cpuChoice) {
+
 
 }
 
-function displayPaper() {
-
-}
-
-function displayScissors() {
-
-}

@@ -81,16 +81,16 @@ Home page
 
 I have used [Coolors](https://coolors.co/) to create the color scheme for the website. I wanted the game to have a clean and minimalistic look. Easy to understand and to interact with.
 
-<img src="assets/images/color scheme 1.png" alt="font">
+<img src="assets/images/color-scheme-1.png" alt="font">
 ##
 
 ### **Typography**
 
 I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for all site text. I like the simple yet expressive look of this font.
 
-<img src="assets/images/mulish font.png" alt="font">
+<img src="assets/images/mulish-font.png" alt="font">
 
-<img src="assets/images/mulish font 2.png" alt="font">
+<img src="assets/images/mulish-font-2.png" alt="font">
 
 ##
 
@@ -106,12 +106,12 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
   - The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. The same icons are used for displaying the user selection while playing. 
 
-<img src="assets/images/favicon 1.png" alt="favicon">
+<img src="assets/images/favicon-hand.png" alt="favicon">
 
 - **Game Settings Buttons**
   - The game settings buttons allows the user to read instructions and reset the game.
 
-<img src="assets/images/settings buttons.png" alt="fettingsbuttons">
+<img src="assets/images/settings-buttons.png" alt="fettingsbuttons">
 
 - **Instructions**
   - The instructions button allows the user to see the game rules and instructions on how to play.
@@ -127,18 +127,18 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
   - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand. I also wanted some icons that felt more "playfulness" adding some fun and creativity to the game. 
 
-<img src="assets/images/game icons.png" alt="gameimage">
+<img src="assets/images/icons-rock-paper-scissors.png" alt="gameimage">
 
 - **Game instructions**
 
-<img src="assets/images/game instructions.png" alt="gameinstructions">
+<img src="assets/images/settings-buttons.png" alt="gameinstructions">
 
 
 - **Scoreboard**
 
   - The scoreboard displays the current score of the game clearly indicating the user's and computer's score. Making it easy for the user to follow along. 
 
-<img src="assets/images/score board.png" alt="score-board">
+<img src="assets/images/score-board.png" alt="score-board">
 
 - **Game Controls**
 
@@ -146,7 +146,7 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
  These icons were found on [FontAwesome](https://fontawesome.com/icons)
 
- <img src="assets/images/game icons buttons.png" alt="gameicon">
+ <img src="assets/images/game-icons-buttons.png" alt="gameicon">
 
 - **Footer**
 
