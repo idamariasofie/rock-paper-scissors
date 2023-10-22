@@ -89,27 +89,36 @@ function generateCpuChoice() {
  */ 
 function calculateWinner() {
     if (userChoice == 1 && cpuChoice == 1) {
+        gameIcons.src = `assets/images/1.png`;
         userMessage.innerHTML = "Both chose rock, it's a draw";
     } else if (userChoice == 2 && cpuChoice == 2) {
+        gameIcons.src = `assets/images/2.png`;
        userMessage.innerHTML = "Both chose paper, it's a draw";
     } else if (userChoice == 3 && cpuChoice == 3) {
+        gameIcons.src = `assets/images/3.png`;
         userMessage.innerHTML = "Both chose scissors, it's a draw";
     } else if (userChoice == 1 && cpuChoice == 3) {
+        gameIcons.src = `assets/images/1.png`;
         userMessage.innerHTML = "You win with rock, CPU chose scissors";
         incrementUserScore();
     } else if (userChoice == 1 && cpuChoice == 2) {
+        gameIcons.src = `assets/images/1.png`;
         userMessage.innerHTML = "CPU wins with rock, you chose scissors";
         incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 3) {
+        gameIcons.src = `assets/images/3.png`;
         userMessage.innerHTML = "CPU wins with scissors, you chose paper";
         incrementCpuScore();
     } else if (userChoice == 2 && cpuChoice == 1) {
+        gameIcons.src = `assets/images/2.png`;
         userMessage.innerHTML = "You win with paper, CPU chose rock";
         incrementUserScore();
     } else if (userChoice == 3 && cpuChoice == 1) {
+        gameIcons.src = `assets/images/1.png`;
         userMessage.innerHTML = "CPU wins with rock, you chose scissors";
         incrementCpuScore();
     } else if (userChoice == 3 && cpuChoice == 2) {
+        gameIcons.src = `assets/images/3.png`;
        userMessage.innerHTML = "You win with scissors, CPU chose paper";
         incrementUserScore();
     }
@@ -137,24 +146,5 @@ function generateGameWinner() {
         userMessage.innerHTML = "YOU WIN!";
     } else if (userScore < 10 && cpuScore === 10) {
         userMessage.innerHTML = "COMPUTER WINS!";
-    }
-}
-
-/**
- * Show the winning icon on screen after draw
- */
-function showWinningRoundImages(userChoice, cpuChoice) {
-   let userImage = document.createElement("img");
-    userImage.src = `assets/images/${userChoice}.png`;
-    userImage.classList.add("completedAction");
-
-    let cpuImage = document.createElement("img");
-    cpuImage.src = `assets/images/${cpuChoice}.png`;
-    cpuImage.classList.add("completedAction");
-
-    if (userChoice === cpuChoice) {
-        gameIcons.src = `assets/images/${userChoice}.png`;
-    } else if (cpuChoice === userChoice) {
-        gameIcons.src = `assets/images/${cpuChoice}.png`;
     }
 }
