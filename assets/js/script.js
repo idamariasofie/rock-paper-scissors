@@ -6,7 +6,7 @@ const userMessage = document.querySelector("#gameinstructions");
 let resetButton = document.getElementById("reset");
 let instructionsButton = document.getElementById("instructions");
 let playNowButton = document.getElementById("play-now");
-let gameIcons = document.getElementById("gameIcons");
+let gameImage = document.getElementById("game-board-img");
 let userChoice;
 let cpuChoice;
 
@@ -141,9 +141,9 @@ let cpuImage = document.createElement("img");
     cpuImage.classList.add("completedAction");
 
     if(userChoice === cpuChoice) {
-        gameIcons.src = `assets/images/${userChoice}.png`;
+        gameImage.src = `assets/images/${userChoice}.png`;
     } else if (cpuChoice === userChoice) {
-        gameIcons.src = `assets/images/${cpuChoice}.png`;
+        gameImage.src = `assets/images/${cpuChoice}.png`;
     }
 }
 

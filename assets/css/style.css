@@ -62,10 +62,12 @@ body {
 
 /* Controls button area */
 .controls-area {
+    display: flex;
     width: auto;
     max-width: 70%;
     height: auto;
     justify-content: center;
+    padding: 2%;
     margin-left: auto;
     margin-right: auto;
 }
