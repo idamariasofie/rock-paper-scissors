@@ -100,10 +100,11 @@ body {
 }
 
 .control-button {
+    display: inline;
     background: none;
     border: none;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     font-size: 2.5rem;
     transition: all 0.5s;
     border-radius: 5px;
@@ -126,16 +127,13 @@ body {
     }
 
     .controls-area {
+        display: flex;
         width: auto;
         max-width: 70%;
         height: auto;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .control-button {
-        text-align: center;
     }
 }
 
@@ -151,13 +149,9 @@ body {
     }
 
     .controls-area {
-        display: inline-block;
+        display: flex;
         width: auto;
         margin: auto;
-    }
-
-    .control-button {
-        text-align: center;
     }
 
     .modal {
