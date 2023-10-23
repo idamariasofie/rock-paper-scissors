@@ -4,35 +4,29 @@ This is a website for playing Rock Paper Scissors, the classic game where users 
 
 The aim of this project is to build an interactive front-end site which responds to the user's actions and altering the way the site displays information to achieve the user's game selections.
 
+<img src="assets/images/responsive.png" alt="responsive">
+
 [Link to website](https://idamariasofie.github.io/rock-paper-scissors/)
 
 # Contents
 
 - UX & Design 
 - User Experience
-
-  - User Stories
+- User Stories
 
 - Design
 
   - Color Scheme
-
   - Typography
-
   - Imagery
-
-  - Wireframes
+  -  Wireframe
 
 - Features
 
   - General Features
-  -
   - Future Implementations
-  -
   - Accessibility
-  -
-- Technologies Used
-
+  - Technologies Used
   - Languages Used
   - Frameworks, Libraries & Programs Used
   
@@ -44,10 +38,10 @@ The aim of this project is to build an interactive front-end site which responds
 - Testing
 
 - Credits
-
-  - Code Used
-  - Content
-  - Acknowledgments
+  
+- Code Used
+- Content
+- Acknowledgments
 
 # **UX & Design**
 
