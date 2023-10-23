@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
             calculateWinner();
             showWinningRoundImages(userChoice, cpuChoice);
             generateGameWinner();
-            disableButtons();
         });
     }
 
@@ -158,20 +157,8 @@ function generateGameWinner() {
 
     if (userScore === 10 && cpuScore < 10) {
         userMessage.innerHTML = "YOU WIN!";
-        disableButtons();
     } else if (userScore < 10 && cpuScore === 10) {
         userMessage.innerHTML = "COMPUTER WINS!";
-        disableButtons();
     }
 }
 
-/**
- * Disable game buttons after either user or computer
- * reach 10 wins 
- */
-function disableButtons() {
-    document.getElementById("rock").disabled = true;
-    document.getElementById("paper").disabled = true;
-    document.getElementById("scissors").disabled = true;
-    generateGameWinner();
-}
