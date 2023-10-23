@@ -10,38 +10,41 @@ The aim of this project is to build an interactive front-end site which responds
 
 # Contents
 
-- UX & Design 
-- User Experience
-- User Stories
+- UX & Design (#ux-design) 
+- User Stories (#user-stories)
 
-- Design
-
-  - Color Scheme
-  - Typography
-  - Imagery
-  -  Wireframe
-
-- Features
-
-  - General Features
-  - Future Implementations
-  - Accessibility
-  - Technologies Used
-  - Languages Used
-  - Frameworks, Libraries & Programs Used
+- Design (#design)
+- Wireframe (#wireframe)
+  - Color Scheme (#color-scheme)
+  - Typography (#typography)
+  - Logo (#logo)
+  - Favicon (#favicon)
+  - Game settings buttons (#game-settings-buttons)
+  - Modal box (#modal-box)
+  - Game image (#game-image)
+  - Game instructions (#game-instructions)
+  - Scoreboard (#scoreboard)
+  - Game controls (#game-controls)
+  - Footer (#footer)
   
-- Deployment & Local Development
 
-  - Deployment
-  - Local Development
-   
-- Testing
-
-- Credits
+- Features (#features)
+  - Future Implementations (#future-implementations)
+  - Technologies Used (#technologies-used)
+  - Languages Used (#languages-used)
+  - Testing (#testing)
   
-- Code Used
-- Content
-- Acknowledgments
+- Deployment (#deployment)
+
+  - Deployment (#deployment)
+
+- Fixed bug (#fixed bug)
+
+- Credits (#credits)
+  
+- Code Used (#code-used)
+- Content (#content)
+- Acknowledgments (#acknowledgements)
 
 # **UX & Design**
 
@@ -61,7 +64,9 @@ Persona 3
 50-75 years
 Since this is such a well-known game, I imagine people playing this at all ages of life.  
 
-##### **Wireframes**
+# **Design**
+
+##### **Wireframe**
 
 I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add ons have been made when I started building the website and game, for example the game message instruction, declaring the winner of of each draw and the game. Since it made more sense to the game and made it more interactive. 
 
@@ -88,8 +93,6 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 ##
 
-## **Features**
-
 - **Logo**
 
   - The site logo appears at the top of the page and shows the user the name of the game.
@@ -108,7 +111,7 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 <img src="assets/images/settings-buttons.png" alt="settingsbuttons">
 
-- **Modal Box with instructions**
+- **Modal Box**
 
   - The instructions modal box appears when the user clicks on the instructions button, and gives the user a rundown on the game's rules. The box can be closed by clicking the "Play now" button at the bottom. 
   - 
@@ -174,9 +177,13 @@ The following is a list of the technologies I used on this project.
 - [Illustrator]
   - Illustrator was used to design the game icons for the game. 
 
+### **Languages Used**
+
+HTML, CSS, JavaScript
 
 ## **Testing**
 
+<img src="assets/images/test.png" alt="test">
 
 
 ## Deployment
@@ -227,5 +234,5 @@ Made by me in Illustrator
 
 ## **Acknowledgements**
 
-I would like to give special thanks to my mentor,  Luke for his guidance during the development of this project.
+I would like to give special thanks to my mentor, Luke for his guidance during the development of this project.
 
