@@ -54,12 +54,10 @@ body {
     padding: 1%;
 }
 
-/* Rock, paper, scissors icons display game winner */
-#1rock,
-#2paper,
-#3scissors {
-width: 85%;
-height: 65%;
+/* Game icons displayed after each draw */
+#gameIcons {
+    width: 30%;
+    height: 30%;
 }
 
 

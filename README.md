@@ -106,7 +106,7 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
   - The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. 
   - 
-<img src="assets/images/favicon-hand.png" alt="favicon">
+<img src="assets/images/favicon-hand.png" sizes="100x100" alt="favicon">
 
 - **Game Settings Buttons**
 - 
