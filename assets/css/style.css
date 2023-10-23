@@ -8,6 +8,12 @@ body {
 
 }
 
+/* Game icons displayed after each draw */
+#gameIcons {
+    width: 20%;
+    height: 20%;
+}
+
 /* Header */
 
 .heading {
@@ -54,13 +60,6 @@ body {
     padding: 1%;
 }
 
-/* Game icons displayed after each draw */
-#gameIcons {
-    width: 30%;
-    height: 30%;
-}
-
-
 /* Buttons */
 
 .btn--instructions,
@@ -93,8 +92,8 @@ body {
 .control-button {
     background: none;
     border: none;
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
     font-size: 2.5rem;
     transition: all 0.5s;
     border-radius: 5px;
