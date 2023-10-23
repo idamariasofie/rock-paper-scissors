@@ -25,7 +25,7 @@ body {
 .modal {
     display: none;
     position: fixed;
-    background:rgb(255, 255, 248);
+    background: rgb(255, 255, 248);
     padding: 20px;
     top: 0;
     height: 100vh;
@@ -43,21 +43,31 @@ body {
     font-size: 1.5rem;
 }
 
-/* Game area and icons layout */
-
-.game-board img {
+/* Game board area */
+.game-board {
     background-color: rgb(255, 255, 248);
-    box-sizing: border-box;
-    width: 85%;
-    height: 65%;
-    max-height: 450px;
-    max-width: 830px;
-    display: grid;
+    width: auto;
+    margin: auto;
+}
+
+#game-board-img {
+    width: auto;
+    max-width: 70%;
+    height: auto;
+    padding-top: 20px;
     justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+}
+
+/* Controls button area */
+.controls-area {
+    width: auto;
+    max-width: 70%;
+    height: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Buttons */
@@ -78,22 +88,22 @@ body {
 
 #play-now {
     background: #333;
-        color: rgb(255, 255, 248);
-        border-radius: 2px;
-        width: 150px;
-        height: 30px;
-        font-family: "Raleway", sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1.2px;
-        margin: 20px 30px;
-        transition: all 0.5s;
+    color: rgb(255, 255, 248);
+    border-radius: 2px;
+    width: 150px;
+    height: 30px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 20px 30px;
+    transition: all 0.5s;
 }
 
 .control-button {
     background: none;
     border: none;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     font-size: 2.5rem;
     transition: all 0.5s;
     border-radius: 5px;
@@ -110,42 +120,56 @@ body {
 
 /* 1400px wide and below */
 @media screen and (max-width: 1400px) {
-    .game-image-area {
+    #game-board-img {
         width: 50%;
         margin: auto;
     }
 
-    button {
-        font-size: 1rem;
+    .controls-area {
+        width: auto;
+        max-width: 70%;
+        height: auto;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .control-button {
+        text-align: center;
     }
 }
 
 /* 770px wide and below */
 @media screen and (max-width: 770px) {
-    .game-area {
+    .game-board {
         width: 100%;
     }
 
-    .game-image-area {
+    #game-board-img {
         width: auto;
         max-width: 100%;
     }
 
-    .game-settings {
+    .controls-area {
+        display: inline-block;
         width: auto;
         margin: auto;
+    }
+
+    .control-button {
+        text-align: center;
     }
 
     .modal {
         padding: 1px;
     }
 
-    .modal-content {
+    .modal-text {
         font-size: 1.2rem;
         width: 80%;
     }
 
-    button {
+    #play-now {
         font-size: 0.7rem;
     }
 
