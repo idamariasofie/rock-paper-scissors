@@ -64,7 +64,6 @@ body {
 .controls-area {
     display: flex;
     width: auto;
-    max-width: 70%;
     height: auto;
     justify-content: center;
     padding: 2%;

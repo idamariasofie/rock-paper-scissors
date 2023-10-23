@@ -144,6 +144,8 @@ let cpuImage = document.createElement("img");
         gameImage.src = `assets/images/${userChoice}.png`;
     } else if (cpuChoice === userChoice) {
         gameImage.src = `assets/images/${cpuChoice}.png`;
+    } else if (userChoice === incrementUserScore) {
+        
     }
 }
 
