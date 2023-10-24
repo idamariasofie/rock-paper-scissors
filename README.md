@@ -216,30 +216,32 @@ To check accessibility I used Wave Web Accessibility Evaluation tool
 
 ## Credits
 
-- Instructions on how to add a Favicon
+- Basic files structure was built with the help of Love Math Challenge
+  
+- Instructions on how to add a Favicon:
 <https://www.w3schools.com/html/html_favicon.asp>
 and the material on Favicons from "Love Running"
 
-- Instructions on how to code a modal box 
+- Instructions on how to code a modal box:
 <https://www.youtube.com/watch?app=desktop&v=o5ffh3KUaTM&pp=ygUeY3JlYXRlIG1vZGFsIHVzaW5nIGphdmFzY3JpcHQg>
 
 <https://www.w3schools.com/howto/howto_css_modals.asp>
 
-- Instructions on how to code the reset button
+- Instructions on how to code the reset button:
 <https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/#:~:text=You%20can%20use%20the%20location>,method%20responsible%20for%20page%20reloading.
 and by the project
 <https://github.com/adamgilroy22/stick-kick>
 
 - Instructions on coding createElement in Javascript:
-https://www.w3schools.com/jsref/prop_style_visibility.asp 
-
 <https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/>
 
 https://stackoverflow.com/questions/226847/what-is-the-best-javascript-code-to-create-an-img-element 
 
+and by looking at code structure in Stick Kick project by Adam Gilroy
+<https://github.com/adamgilroy22/stick-kick>
+
 - Instructions on how to create game messages for user:
-Stick Kick project by Adam Gilroy 
-https://github.com/adamgilroy22/stick-kick 
+Stick Kick project by Adam Gilroy https://github.com/adamgilroy22/stick-kick 
 
 - Rock, paper, scissors button icons were found on:
 www.fontawesome.com
