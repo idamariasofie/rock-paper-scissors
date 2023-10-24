@@ -240,6 +240,8 @@ https://stackoverflow.com/questions/226847/what-is-the-best-javascript-code-to-c
 and by looking at code structure in Stick Kick project by Adam Gilroy
 <https://github.com/adamgilroy22/stick-kick>
 
+ChatGPT for suggestion on how to implement createElement function to display winning image after each draw. 
+
 - Instructions on how to create game messages for user:
 Stick Kick project by Adam Gilroy https://github.com/adamgilroy22/stick-kick 
 
