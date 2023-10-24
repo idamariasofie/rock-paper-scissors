@@ -152,7 +152,7 @@ let cpuImage = document.createElement("img");
     if (userWon) {
         gameImage.src = `assets/images/${userChoice}.png`;
     } else if (cpuWon) {
-        gameImage.src = `assets/images/${userChoice}.png`;
+        gameImage.src = `assets/images/${cpuChoice}.png`;
     } else if (aDraw) {
         gameImage.src = `assets/images/${userChoice}.png`;
     }

@@ -101,12 +101,11 @@ body {
 }
 
 .control-button {
-    display: inline;
-    background: none;
     display: flex;
-    border: none;
     flex-direction: column;
     align-items: center;
+    background: none;
+    border: none;
     gap: 2px;
     background-color: rgb(255, 255, 248);
     color: darkslategrey;
