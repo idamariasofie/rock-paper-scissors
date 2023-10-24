@@ -191,16 +191,42 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Testing
 
+### Browser and devices
+
+This webpage has been tested on Chrome, Safari and FireFox by me and my family. Layout and functionality were ensured during these testings.
+
+We have used the following devices:
+
+Iphone 12
+MacBook Pro 
+Dell Latitude 5420
+
+### Manual testing
+
+<img src="assets/images/test.png" alt="manualtest">
+
+
 HTML - validation
 
+<img src="assets/images/html-check.png" alt="htmlckeck">
+
+CSS - validation 
+
+<img src="assets/images/css-check.png" alt="cssckeck">
 
 
+## Performance
+
+I used Lighthouse to check the website performance
+
+<img src="assets/images/lighthouse.png" alt="lighthouse">
 
 
-<img src="assets/images/test.png" alt="test">
+## Accessibility
 
+To check accessibility I used Wave Web Accessibility Evaluation tool
 
-
+<img src="assets/images/wave.png" alt="wave">
 
 
 ## Credits
