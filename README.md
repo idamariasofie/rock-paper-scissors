@@ -123,7 +123,7 @@ The game control buttons allows the user to choose rock, paper, or scissors when
 
  These icons were found on [FontAwesome](https://fontawesome.com/icons)
 
- <img src="assets/images/game-icons-buttons.png" alt="gameicon">
+ <img src="assets/images/game-button-icons-name.png" alt="gameicon">
 
 ### Footer
 
@@ -136,7 +136,7 @@ The footer displays my name, the purpose of the project and a link to my Github 
 
 ### Animation
 
-For the future it would be great to add animated icons to add another dimension to the game and make it even more professional and fun to play. I would also like the game to end automatically when either the user or computer wins the game.  
+For the future it would be great to add animated icons to add another dimension to the game and make it even more professional and fun to play. I would also like the game to end automatically when either the user or computer wins the game. 
 
 ## Bugs and challenges 
 
