@@ -1,60 +1,60 @@
 # Rock Paper Scissors - Portfolio project 2
 
-This is a website for playing Rock Paper Scissors, the classic game where users compete against the computer in a game of chance, with the first to 10 wins. I decided to create this game and teach my four year old to play it at the same time. 
+This is a website for playing Rock Paper Scissors, the classic and familiar game where users compete against the computer in a game of chance, with the first to 10 wins. I decided to create this game, and teach my four year old to play it at the same time. 
 
-The aim of this project is to build an interactive front-end site which responds to the user's actions and altering the way the site displays information to achieve the user's game selections.
+The aim of this project is to build an interactive front-end site which responds to the user's actions and altering the way the site displays the winner of the draw. 
 
 <img src="assets/images/responsive.png" alt="responsive">
 
 [Link to website](https://idamariasofie.github.io/rock-paper-scissors/)
 
-# Contents
+## Contents
 
-- UX & Design (#ux-design) 
-- User Stories (#user-stories)
+* UX & Design (#ux-design) 
+* User Stories (#user-stories)
 
-- Design (#design)
-- Wireframe (#wireframe)
-  - Color Scheme (#color-scheme)
-  - Typography (#typography)
-  - Logo (#logo)
-  - Favicon (#favicon)
-  - Game settings buttons (#game-settings-buttons)
-  - Modal box (#modal-box)
-  - Game image (#game-image)
-  - Game instructions (#game-instructions)
-  - Scoreboard (#scoreboard)
-  - Game controls (#game-controls)
-  - Footer (#footer)
+* Design (#design)
+* Wireframe (#wireframe)
+  * Color Scheme (#color-scheme)
+  * Typography (#typography)
+  * Logo (#logo)
+  * Favicon (#favicon)
+  * Game settings buttons (#game-settings-buttons)
+  * Modal box (#modal-box)
+  * Game image (#game-image)
+  * Game instructions (#game-instructions)
+  * Scoreboard (#scoreboard)
+  * Game controls (#game-controls)
+  * Footer (#footer)
   
 
-- Features (#features)
-  - Future Implementations (#future-implementations)
-  - Technologies Used (#technologies-used)
-  - Languages Used (#languages-used)
-  - Testing (#testing)
+* Features (#features)
+  * Future Implementations (#future-implementations)
+  * Bugs and challenges (#bus-and-challenges)
+  * Technologies Used (#technologies-used)
+  * Languages Used (#languages-used)
   
-- Deployment (#deployment)
+* Deployment (#deployment)
 
-  - Deployment (#deployment)
+  * Deployment (#deployment)
 
-- Fixed bug (#fixed bug)
+* Testing (#testing)
 
-- Credits (#credits)
+* Credits (#credits)
   
-- Code Used (#code-used)
-- Content (#content)
-- Acknowledgments (#acknowledgements)
+* Code Used (#code-used)
+* Content (#content)
+* Acknowledgments (#acknowledgements)
 
-# **UX & Design**
+## UX & Design
 
 As the site is a single-serving site, meaning there is only one page, I wanted to keep the design of the page simple and clean  Making it clear to the user visiting the website this is a game page. 
 
-### **User Stories**
+### User Stories
 
 Persona 1
 Age 4-15 years
-One of the first games you learn as a child and young teenager. Fun to play and to learn at the same time online. 
+One of the first games you learn to play as a child. Fun to play and to learn at the same time online. 
 
 Persona 2
 Age 15-50 years
@@ -64,11 +64,11 @@ Persona 3
 50-75 years
 Since this is such a well-known game, I imagine people playing this at all ages of life.  
 
-# **Design**
+## Design
 
-##### **Wireframe**
+## Wireframe
 
-I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add ons have been made when I started building the website and game, for example the game message instruction, declaring the winner of of each draw and the game. Since it made more sense to the game and made it more interactive. 
+I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add ons have been made when I started building the website and game, for example the game message instruction box, declaring the winner of of each draw and the game. Since it made more sense to the game and made it more interactive. 
 
 Home page
 
@@ -76,14 +76,14 @@ Home page
 
 ##
 
-### **Color Scheme**
+### Color Scheme
 
 I have used [Coolors](https://coolors.co/) to create the color scheme for the website. I wanted the game to have a clean and minimalistic look. Easy to understand and to interact with.
 
 <img src="assets/images/color-scheme-1.png" alt="font">
 ##
 
-### **Typography**
+### Typography
 
 I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for all site text. I like the simple yet expressive look of this font.
 
@@ -93,48 +93,48 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 ##
 
-- **Logo**
+### *Loo*
 
-  - The site logo appears at the top of the page and shows the user the name of the game.
+  - The site log appears at the top of the page and shows the user the name of the game.
 
 <img src="assets/images/logo.png" alt="logo">
 
-- **Favicon**
+### Favicon
 
   - The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. 
   - 
 <img src="assets/images/favicon-hand.png" sizes="100x100" alt="favicon">
 
-- **Game Settings Buttons**
+### Game Settings Buttons
 - 
   - The game settings buttons, allows the user to read game instructions and reset the game at any time.
 
 <img src="assets/images/settings-buttons.png" alt="settingsbuttons">
 
-- **Modal Box**
+### Modal Box
 
   - The instructions modal box appears when the user clicks on the instructions button, and gives the user a rundown on the game's rules. The box can be closed by clicking the "Play now" button at the bottom. 
   - 
 <img src="assets/images/modal-text.png" alt="modal">
 
-- **Game Image**
+### Game Image
 
   - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand. I also wanted some icons that felt more "playfull" adding some fun and creativity to the game. 
 
 <img src="assets/images/icons-rock-paper-scissors.png" alt="gameimage">
 
-- **Game instructions**
+### Game instructions
 
 <img src="assets/images/settings-buttons.png" alt="gameinstructions">
 
 
-- **Scoreboard**
+### Scoreboard
 
   - The scoreboard displays the current score of the game clearly indicating the user's and computer's score. Making it easy for the user to follow along. 
 
 <img src="assets/images/score-board.png" alt="score-board">
 
-- **Game Controls**
+### Game Controls
 
   - The game control buttons allows the user to choose rock, paper, or scissors when playing. I decided to turn the rock and scissors icons horizontally to make them more true to reality. 
 
@@ -142,7 +142,7 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
  <img src="assets/images/game-icons-buttons.png" alt="gameicon">
 
-- **Footer**
+### Footer
 
   - The footer displays my name, the purpose of the project and a link to my Github that opens in a new tab. 
   
@@ -150,52 +150,60 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 ##
 
-### **Features to implement**
+## Features to implement
 
 - **Animation**
 
-For the future it would be great to add animated icons to add another dimension to the game and make it even more professional and fun to play. 
+For the future it would be great to add animated icons to add another dimension to the game and make it even more professional and fun to play. I would also like the game to end automatically when either the user or computer wins the game.  
 
-### **Technologies Used**
+## Bugs and challenges 
+
+There were several bugs I came across while developing this game:
+
+The favicon icon appeared not to load regardless of the way I was trying to upload it to the root directory. Both options were unsuccessfull to load the icon. I have tried option of copying the code from the website and uploading the whole folder to the directory and the one advised on Love Maths project with single line of code under the Title and single file upload. In the end the icon did appear on the deployed version of the website only, so it was decided to leave it as it is.
+Quiz questions functions bug was the most challenging as JS file stopped working when getting to the certain line for the code, and from many more than 'first glance' JS code was perfectly fine on all line for the file. After long time of research I managed to find the bug in the HTML file. As this version of repository was created as a copy of the first draft and most of the code was copied directly to the directory from the version that was created first, thus some lines were simply overwritten.
+Also minor background bug was easily fixed. Background image appeared to move/shake everytime new button came up or ckicked on. First I tried to fix this issue with reducing borders of the buttons but later on I have managed to perfectly place the background with some extra css code.
+
+## Technologies Used
 
 The following is a list of the technologies I used on this project.
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-  - HTML5 was used to create the structure of the site.
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
-  - CSS3 was used to add styling to the site.
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-  - JavaScript was used to add functionality to the game.
-- [Google Fonts](https://fonts.google.com/)
-  - Google Fonts was used to import the Mauri font for use on styles.css.
-- [Github](https://github.com/)
-  - Github was used to store the project's code after being pushed from Git.
-- [Codeanywhere](https://gitpod.io/)
-  - Gitpod terminal was used to commit my code using Git and push it to Github.
-- [Balsamiq](https://balsamiq.com/)
-  - Balsamiq was used to design the wireframes for the project.
-- [Illustrator]
-  - Illustrator was used to design the game icons for the game. 
+GitHub – storage and deployment
+Codeanywhere – IDE used to write, edit, commit and push the code to GitHub
+Google Fonts – import font
+Font Awesome –used to find icons for buttons
+Balsamiq – Balsamiq was used to design the wireframe
+Am I Responsive? – check responsiveness of the website
+Illustrator – used to design the game icons and favicon
+Coolors – create color palette
 
-### **Languages Used**
+## Languages Used
 
-HTML, CSS, JavaScript
-
-## **Testing**
-
-<img src="assets/images/test.png" alt="test">
-
+HTML, CSS, JAVASCRIPT
 
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-- In the [GitHub repository navigate to the Settings tab.
-- From the source section drop-down menu, select the  **Main**  Branch, then click "Save".
-- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* In the [GitHub repository navigate to the Settings tab.
+* From the source section drop-down menu, select the  **Main**  Branch, then click "Save".
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+## Testing
+
+HTML - validation
 
 
-## **Credits**
+
+
+
+<img src="assets/images/test.png" alt="test">
+
+
+
+
+
+## Credits
 
 Favicon info: <https://www.w3schools.com/html/html_favicon.asp>
 
@@ -220,19 +228,19 @@ Reset button:
 
 Rock, paper, scissors button icons:
 
-fontawesome
+www.fontawesome.com
 
-Colored rock, paper, scissors images:
+Rock, paper, scissors icons/images:
 
-Made by me in Illustrator 
+Made by me in Illustrator. 
 
-### **Content**
+### Content
 
 - All website text content on the website was written and created by me.
 - Game instructions text inspired by <https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/game-theory/psr.html#:~:text=Rock%2C%20Paper%2C%20Scissors>,beats%20rock%20by%20covering%20it.
 
 
-## **Acknowledgements**
+## Acknowledgements
 
 I would like to give special thanks to my mentor, Luke for his guidance during the development of this project.
 

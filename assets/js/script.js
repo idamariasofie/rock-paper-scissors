@@ -101,16 +101,16 @@ function calculateWinner() {
         userMessage.innerHTML = "You win!";
     } else if (userChoice == 1 && cpuChoice == 2) {
         cpuWon = true;
-        userMessage.innerHTML = "Computer win!";
+        userMessage.innerHTML = "Computer wins!";
     } else if (userChoice == 2 && cpuChoice == 3) {
         cpuWon = true;
-        userMessage.innerHTML = "Computer win!";
+        userMessage.innerHTML = "Computer wins!";
     } else if (userChoice == 2 && cpuChoice == 1) {
         userWon = true;
         userMessage.innerHTML = "You win!";
     } else if (userChoice == 3 && cpuChoice == 1) {
         cpuWon = true;
-        userMessage.innerHTML = "Computer win!";
+        userMessage.innerHTML = "Computer wins!";
     } else if (userChoice == 3 && cpuChoice == 2) {
         userWon = true;
         userMessage.innerHTML = "You win!";
