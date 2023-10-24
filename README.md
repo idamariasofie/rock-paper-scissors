@@ -13,19 +13,19 @@ The aim of this project is to build an interactive front-end site which responds
 * UX & Design (#ux-design) 
 * User Stories (#user-stories)
 
-* Design (#design)
-* Wireframe (#wireframe)
-  * Color Scheme (#color-scheme)
-  * Typography (#typography)
-  * Logo (#logo)
-  * Favicon (#favicon)
-  * Game settings buttons (#game-settings-buttons)
-  * Modal box (#modal-box)
-  * Game image (#game-image)
-  * Game instructions (#game-instructions)
-  * Scoreboard (#scoreboard)
-  * Game controls (#game-controls)
-  * Footer (#footer)
+* [Design] (#design)
+* [Wireframe] (#wireframe)
+* [Color Scheme] (#color-scheme)
+* [Typography] (#typography)
+* [Logo] (#logo)
+* [Favicon] (#favicon)
+* [Game settings buttons] (#game-settings-buttons)
+* [Modal box] (#modal-box)
+* [Game image] (#game-image)
+* [Game instructions] (#game-instructions)
+* [Scoreboard] (#scoreboard)
+* [Game controls] (#game-controls)
+* [Footer] (#footer)
   
 
 * Features (#features)
@@ -149,7 +149,7 @@ For the future it would be great to add animated icons to add another dimension 
 
 ## Bugs and challenges 
 
-After getting the winning symbol (rock, paper or scissors) to appear on the screen after each draw, the user messages connected to these were not working. Instead the only message displayed was "You win", even though it eas the computer winning or a draw. I managed to find the problem in the ShowWinningRoundImage function and 
+After getting the winning symbol (rock, paper or scissors) to appear on the screen after each draw, the user messages connected to these were not working. Instead the only message displayed was "You win", even though it eas the computer winning or a draw. I managed to find the problem in the ShowWinningRoundImage function and moved the messages back to the calculateWinner function to make it work again. 
 
 <img src="assets/images/fixed-bug.png" alt="bug">
 
@@ -223,33 +223,35 @@ To check accessibility I used Wave Web Accessibility Evaluation tool
 
 ## Credits
 
-Favicon info: <https://www.w3schools.com/html/html_favicon.asp>
+Instructions on how to add a Favicon
+<https://www.w3schools.com/html/html_favicon.asp>
+and the material on Favicons from "Love Running"
 
-How to create a modal box: <https://www.youtube.com/watch?app=desktop&v=o5ffh3KUaTM&pp=ygUeY3JlYXRlIG1vZGFsIHVzaW5nIGphdmFzY3JpcHQg>
+Instructions on how to code a modal box 
+<https://www.youtube.com/watch?app=desktop&v=o5ffh3KUaTM&pp=ygUeY3JlYXRlIG1vZGFsIHVzaW5nIGphdmFzY3JpcHQg>
 
-How to create a modal box:
 <https://www.w3schools.com/howto/howto_css_modals.asp>
 
-Style visibility display: 
-
-https://www.w3schools.com/jsref/prop_style_visibility.asp 
-
-Game messages for user:
-
-Stick Kick project by Adam Gilroy 
-
+Instructions on how to code the reset button
+<https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/#:~:text=You%20can%20use%20the%20location>,method%20responsible%20for%20page%20reloading.
+and by the project
 <https://github.com/adamgilroy22/stick-kick>
 
-Reset button:
+Instructions on coding createElement in Javascript:
+https://www.w3schools.com/jsref/prop_style_visibility.asp 
 
-<https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/#:~:text=You%20can%20use%20the%20location>,method%20responsible%20for%20page%20reloading.
+<https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/>
 
-Rock, paper, scissors button icons:
+https://stackoverflow.com/questions/226847/what-is-the-best-javascript-code-to-create-an-img-element 
 
+Instructions on how to create game messages for user:
+Stick Kick project by Adam Gilroy 
+https://github.com/adamgilroy22/stick-kick 
+
+Rock, paper, scissors button icons were found on:
 www.fontawesome.com
 
 Rock, paper, scissors icons/images:
-
 Made by me in Illustrator. 
 
 ### Content
