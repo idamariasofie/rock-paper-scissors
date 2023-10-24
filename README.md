@@ -35,6 +35,8 @@ The aim of this project is to build an interactive front-end site which responds
   - [Testing](#testing)
     - [Browser and devices](#browser-and-devices)
     - [Manual testing](#manual-testing)
+    - [HTML - validation](#html---validation)
+    - [CSS - validation](#css---validation)
     - [Performance](#performance)
     - [Accessibility](#accessibility)
   - [Credits](#credits)
@@ -151,14 +153,14 @@ After getting the winning symbol (rock, paper or scissors) to appear on the scre
 
 The following is a list of the technologies I used on this project.
 
-GitHub – storage and deployment
-Codeanywhere – IDE used to write, edit, commit and push the code to GitHub
-Google Fonts – import font
-Font Awesome –used to find icons for buttons
-Balsamiq – Balsamiq was used to design the wireframe
-Am I Responsive? – check responsiveness of the website
-Illustrator – used to design the game icons and favicon
-Coolors – create color palette
+* GitHub, storage and deployment
+* Codeanywhere, IDE used to write, edit, commit and push the code to GitHub
+* Google Fonts, import font
+* Font Awesome, used to find icons for buttons
+* Balsamiq, Balsamiq was used to design the wireframe
+* Am I Responsive? check responsiveness of the website
+* Illustrator, used to design the game icons and favicon
+* Coolors, create color palette
 
 ### Languages Used
 
@@ -180,20 +182,20 @@ This webpage has been tested on Chrome, Safari and FireFox by me and my family. 
 
 We have used the following devices:
 
-Iphone 12
-MacBook Pro 
-Dell Latitude 5420
+* Iphone 12
+* MacBook Pro 
+* Dell Latitude 5420
 
 ### Manual testing
 
 <img src="assets/images/test.png" alt="manualtest">
 
 
-HTML - validation
+### HTML - validation
 
 <img src="assets/images/html-check.png" alt="htmlckeck">
 
-CSS - validation 
+### CSS - validation 
 
 <img src="assets/images/css-check.png" alt="cssckeck">
 
