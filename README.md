@@ -48,7 +48,7 @@ The aim of this project is to build an interactive front-end site which responds
 
 ## UX & Design
 
-As the site is a single-serving site, meaning there is only one page, I wanted to keep the design of the page simple and clean  Making it clear to the user visiting the website this is a game page. 
+As the site is a single-serving site, meaning there is only one page, I wanted to keep the design of the page simple and clean. Making it clear to the user visiting the website this is a game page. 
 
 ### User Stories
 
@@ -70,11 +70,7 @@ Since this is such a well-known game, I imagine people playing this at all ages 
 
 I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add ons have been made when I started building the website and game, for example the game message instruction box, declaring the winner of of each draw and the game. Since it made more sense to the game and made it more interactive. 
 
-Home page
-
-<img src="assets/images/wireframe.png" alt="font">
-
-##
+<img src="assets/images/wireframe.png" alt="wireframe">
 
 ### Color Scheme
 
@@ -93,50 +89,45 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 ##
 
-### *Loo*
+### Logo
 
-  - The site log appears at the top of the page and shows the user the name of the game.
+The site log appears at the top of the page and shows the user the name of the game.
 
 <img src="assets/images/logo.png" alt="logo">
 
 ### Favicon
 
-  - The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. 
-  - 
-<img src="assets/images/favicon-hand.png" sizes="100x100" alt="favicon">
+The favicon on the browser tab contains a simple hand icon, this was created in Illustrator. 
+
+<img src="assets/images/favicon-hand.png" sizes="60x60" alt="favicon">
 
 ### Game Settings Buttons
-- 
-  - The game settings buttons, allows the user to read game instructions and reset the game at any time.
+
+The game settings buttons, allows the user to read game instructions and reset the game at any time.
 
 <img src="assets/images/settings-buttons.png" alt="settingsbuttons">
 
 ### Modal Box
 
-  - The instructions modal box appears when the user clicks on the instructions button, and gives the user a rundown on the game's rules. The box can be closed by clicking the "Play now" button at the bottom. 
-  - 
+The instructions modal box appears when the user clicks on the instructions button, and gives the user a rundown on the game's rules. The box can be closed by clicking the "Play now" button at the bottom. 
+  
 <img src="assets/images/modal-text.png" alt="modal">
 
 ### Game Image
 
-  - When entering the page this image will show to the user. The idea was to create something estetic and easy to understand. I also wanted some icons that felt more "playfull" adding some fun and creativity to the game. 
+When entering the page this image will show to the user. The idea was to create something estetic and easy to understand. I also wanted some icons that felt more "playfull" adding some fun and creativity to the game. 
 
 <img src="assets/images/icons-rock-paper-scissors.png" alt="gameimage">
 
-### Game instructions
-
-<img src="assets/images/settings-buttons.png" alt="gameinstructions">
-
-
 ### Scoreboard
 
-  - The scoreboard displays the current score of the game clearly indicating the user's and computer's score. Making it easy for the user to follow along. 
+The scoreboard displays the current score of the game clearly indicating the user's and computer's score. Making it easy for the user to follow along. 
 
 <img src="assets/images/score-board.png" alt="score-board">
 
 ### Game Controls
 
-  - The game control buttons allows the user to choose rock, paper, or scissors when playing. I decided to turn the rock and scissors icons horizontally to make them more true to reality. 
+The game control buttons allows the user to choose rock, paper, or scissors when playing. I decided to turn the rock and scissors icons horizontally to make them more true to reality. 
 
  These icons were found on [FontAwesome](https://fontawesome.com/icons)
 
@@ -144,7 +135,7 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 ### Footer
 
-  - The footer displays my name, the purpose of the project and a link to my Github that opens in a new tab. 
+The footer displays my name, the purpose of the project and a link to my Github that opens in a new tab. 
   
 <img src="assets/images/footer.png" alt="footer">
 
@@ -152,17 +143,18 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 
 ## Features to implement
 
-- **Animation**
+**Animation**
 
 For the future it would be great to add animated icons to add another dimension to the game and make it even more professional and fun to play. I would also like the game to end automatically when either the user or computer wins the game.  
 
 ## Bugs and challenges 
 
-There were several bugs I came across while developing this game:
+After getting the winning symbol (rock, paper or scissors) to appear on the screen after each draw, the user messages connected to these were not working. Instead the only message displayed was "You win", even though it eas the computer winning or a draw. I managed to find the problem in the ShowWinningRoundImage function and 
 
-The favicon icon appeared not to load regardless of the way I was trying to upload it to the root directory. Both options were unsuccessfull to load the icon. I have tried option of copying the code from the website and uploading the whole folder to the directory and the one advised on Love Maths project with single line of code under the Title and single file upload. In the end the icon did appear on the deployed version of the website only, so it was decided to leave it as it is.
-Quiz questions functions bug was the most challenging as JS file stopped working when getting to the certain line for the code, and from many more than 'first glance' JS code was perfectly fine on all line for the file. After long time of research I managed to find the bug in the HTML file. As this version of repository was created as a copy of the first draft and most of the code was copied directly to the directory from the version that was created first, thus some lines were simply overwritten.
-Also minor background bug was easily fixed. Background image appeared to move/shake everytime new button came up or ckicked on. First I tried to fix this issue with reducing borders of the buttons but later on I have managed to perfectly place the background with some extra css code.
+<img src="assets/images/fixed-bug.png" alt="bug">
+
+<img src="assets/images/fixed-bug-2.png" alt="bug">
+
 
 ## Technologies Used
 

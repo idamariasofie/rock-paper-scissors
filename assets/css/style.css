@@ -103,12 +103,20 @@ body {
 .control-button {
     display: inline;
     background: none;
+    display: flex;
     border: none;
-    width: 100%;
-    height: auto;
-    font-size: 2.5rem;
-    transition: all 0.5s;
-    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background-color: rgb(255, 255, 248);
+    color: darkslategrey;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
 }
 
 /* Score board */

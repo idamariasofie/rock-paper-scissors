@@ -120,6 +120,7 @@ function calculateWinner() {
         incrementUserScore();
     } else if (cpuWon) {
         incrementCpuScore();
+    } else if (aDraw) {
     }
 }
 
