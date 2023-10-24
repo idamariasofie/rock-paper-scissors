@@ -8,43 +8,40 @@ The aim of this project is to build an interactive front-end site which responds
 
 [Link to website](https://idamariasofie.github.io/rock-paper-scissors/)
 
-## Contents
+## Table of Contents
 
-* UX & Design (#ux-design) 
-* User Stories (#user-stories)
-
-* [Design] (#design)
-* [Wireframe] (#wireframe)
-* [Color Scheme] (#color-scheme)
-* [Typography] (#typography)
-* [Logo] (#logo)
-* [Favicon] (#favicon)
-* [Game settings buttons] (#game-settings-buttons)
-* [Modal box] (#modal-box)
-* [Game image] (#game-image)
-* [Game instructions] (#game-instructions)
-* [Scoreboard] (#scoreboard)
-* [Game controls] (#game-controls)
-* [Footer] (#footer)
-  
-
-* Features (#features)
-  * Future Implementations (#future-implementations)
-  * Bugs and challenges (#bus-and-challenges)
-  * Technologies Used (#technologies-used)
-  * Languages Used (#languages-used)
-  
-* Deployment (#deployment)
-
-  * Deployment (#deployment)
-
-* Testing (#testing)
-
-* Credits (#credits)
-  
-* Code Used (#code-used)
-* Content (#content)
-* Acknowledgments (#acknowledgements)
+- [Rock Paper Scissors - Portfolio project 2](#rock-paper-scissors---portfolio-project-2)
+  - [Table of Contents](#table-of-contents)
+  - [UX \& Design](#ux--design)
+    - [User Stories](#user-stories)
+  - [Design](#design)
+  - [Wireframe](#wireframe)
+    - [Color Scheme](#color-scheme)
+  - [](#)
+    - [Typography](#typography)
+  - [](#-1)
+    - [Logo](#logo)
+    - [Favicon](#favicon)
+    - [Game Settings Buttons](#game-settings-buttons)
+    - [Modal Box](#modal-box)
+    - [Game Image](#game-image)
+    - [Scoreboard](#scoreboard)
+    - [Game Controls](#game-controls)
+    - [Footer](#footer)
+  - [](#-2)
+  - [Features to implement](#features-to-implement)
+  - [Bugs and challenges](#bugs-and-challenges)
+  - [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Deployment](#deployment)
+  - [Testing](#testing)
+    - [Browser and devices](#browser-and-devices)
+    - [Manual testing](#manual-testing)
+  - [Performance](#performance)
+  - [Accessibility](#accessibility)
+  - [Credits](#credits)
+    - [Content](#content)
+  - [Acknowledgements](#acknowledgements)
 
 ## UX & Design
 
@@ -223,35 +220,35 @@ To check accessibility I used Wave Web Accessibility Evaluation tool
 
 ## Credits
 
-Instructions on how to add a Favicon
+- Instructions on how to add a Favicon
 <https://www.w3schools.com/html/html_favicon.asp>
 and the material on Favicons from "Love Running"
 
-Instructions on how to code a modal box 
+- Instructions on how to code a modal box 
 <https://www.youtube.com/watch?app=desktop&v=o5ffh3KUaTM&pp=ygUeY3JlYXRlIG1vZGFsIHVzaW5nIGphdmFzY3JpcHQg>
 
 <https://www.w3schools.com/howto/howto_css_modals.asp>
 
-Instructions on how to code the reset button
+- Instructions on how to code the reset button
 <https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/#:~:text=You%20can%20use%20the%20location>,method%20responsible%20for%20page%20reloading.
 and by the project
 <https://github.com/adamgilroy22/stick-kick>
 
-Instructions on coding createElement in Javascript:
+- Instructions on coding createElement in Javascript:
 https://www.w3schools.com/jsref/prop_style_visibility.asp 
 
 <https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/>
 
 https://stackoverflow.com/questions/226847/what-is-the-best-javascript-code-to-create-an-img-element 
 
-Instructions on how to create game messages for user:
+- Instructions on how to create game messages for user:
 Stick Kick project by Adam Gilroy 
 https://github.com/adamgilroy22/stick-kick 
 
-Rock, paper, scissors button icons were found on:
+- Rock, paper, scissors button icons were found on:
 www.fontawesome.com
 
-Rock, paper, scissors icons/images:
+- Rock, paper, scissors icons/images:
 Made by me in Illustrator. 
 
 ### Content
