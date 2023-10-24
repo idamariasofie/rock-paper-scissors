@@ -15,11 +15,9 @@ The aim of this project is to build an interactive front-end site which responds
   - [UX \& Design](#ux--design)
     - [User Stories](#user-stories)
   - [Design](#design)
-  - [Wireframe](#wireframe)
+    - [Wireframe](#wireframe)
     - [Color Scheme](#color-scheme)
-  - [](#)
     - [Typography](#typography)
-  - [](#-1)
     - [Logo](#logo)
     - [Favicon](#favicon)
     - [Game Settings Buttons](#game-settings-buttons)
@@ -28,17 +26,17 @@ The aim of this project is to build an interactive front-end site which responds
     - [Scoreboard](#scoreboard)
     - [Game Controls](#game-controls)
     - [Footer](#footer)
-  - [](#-2)
   - [Features to implement](#features-to-implement)
+    - [Animation](#animation)
   - [Bugs and challenges](#bugs-and-challenges)
   - [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
+    - [Languages Used](#languages-used)
   - [Deployment](#deployment)
   - [Testing](#testing)
     - [Browser and devices](#browser-and-devices)
     - [Manual testing](#manual-testing)
-  - [Performance](#performance)
-  - [Accessibility](#accessibility)
+    - [Performance](#performance)
+    - [Accessibility](#accessibility)
   - [Credits](#credits)
     - [Content](#content)
   - [Acknowledgements](#acknowledgements)
@@ -63,7 +61,7 @@ Since this is such a well-known game, I imagine people playing this at all ages 
 
 ## Design
 
-## Wireframe
+### Wireframe
 
 I used Balsamiq to develop the wireframes for the website. This was the original idea, a few add ons have been made when I started building the website and game, for example the game message instruction box, declaring the winner of of each draw and the game. Since it made more sense to the game and made it more interactive. 
 
@@ -74,7 +72,6 @@ I used Balsamiq to develop the wireframes for the website. This was the original
 I have used [Coolors](https://coolors.co/) to create the color scheme for the website. I wanted the game to have a clean and minimalistic look. Easy to understand and to interact with.
 
 <img src="assets/images/color-scheme-1.png" alt="font">
-##
 
 ### Typography
 
@@ -83,8 +80,6 @@ I used [Google Fonts](https://fonts.google.com/) to find the font Mauri used for
 <img src="assets/images/mulish-font.png" alt="font">
 
 <img src="assets/images/mulish-font-2.png" alt="font">
-
-##
 
 ### Logo
 
@@ -136,11 +131,10 @@ The footer displays my name, the purpose of the project and a link to my Github 
   
 <img src="assets/images/footer.png" alt="footer">
 
-##
 
 ## Features to implement
 
-**Animation**
+### Animation
 
 For the future it would be great to add animated icons to add another dimension to the game and make it even more professional and fun to play. I would also like the game to end automatically when either the user or computer wins the game.  
 
@@ -166,7 +160,7 @@ Am I Responsive? – check responsiveness of the website
 Illustrator – used to design the game icons and favicon
 Coolors – create color palette
 
-## Languages Used
+### Languages Used
 
 HTML, CSS, JAVASCRIPT
 
@@ -204,14 +198,14 @@ CSS - validation
 <img src="assets/images/css-check.png" alt="cssckeck">
 
 
-## Performance
+### Performance
 
 I used Lighthouse to check the website performance
 
 <img src="assets/images/lighthouse.png" alt="lighthouse">
 
 
-## Accessibility
+### Accessibility
 
 To check accessibility I used Wave Web Accessibility Evaluation tool
 
